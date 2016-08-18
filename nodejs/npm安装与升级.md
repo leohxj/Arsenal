@@ -1,4 +1,4 @@
-npm, node package module, node模块管理工具。文档参见: [npm documentation](https://docs.npmjs.com/)
+npm, node package manager, node模块管理工具。文档参见: [npm documentation](https://docs.npmjs.com/)
 
 # npm更新方式
 安装node的时候，默认会安装一个npm版本。由于npm版本的更新频率一般大于node，所以建议我们再自行安装一下npm, 通过命令 `npm install -g npm`，获取最新版本。
