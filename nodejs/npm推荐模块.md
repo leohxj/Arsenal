@@ -1,7 +1,7 @@
 列出一些使用或者别人推荐过的模块。所以模块，可以在 [npm官网](https://www.npmjs.com/)查询。或第三方网站: [npm search](http://npmsearch.com/)查询。
 
 
-# 命令工具
+## 命令工具
 - [npm](https://www.npmjs.com/package/npm): npm命令
 - [cnpm](https://www.npmjs.com/package/cnpm)： 淘宝镜像对应的命令行，除了无法publish，支持其他所以npm命令
 - [npm-check](https://www.npmjs.com/package/npm-check): 检测npm包是否需要更新
