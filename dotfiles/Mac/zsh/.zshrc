@@ -45,18 +45,17 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git fasd)
+plugins=(git autojump fasd)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
-
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -81,9 +80,12 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias st='open -a "Sublime Text"'
 
-
 export PATH=/usr/local/bin:$PATH
 
 # For NVM
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
+
+# For brew cask
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
