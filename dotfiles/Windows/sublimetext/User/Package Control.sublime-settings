@@ -1,0 +1,26 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"All Autocomplete",
+		"AutoFileName",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"CSScomb",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"EncodingHelper",
+		"HTML-CSS-JS Prettify",
+		"JSHint Gutter",
+		"Markdown Preview",
+		"Package Control",
+		"SideBarEnhancements",
+		"Sublimerge Pro",
+		"Terminal",
+		"Theme - Phoenix"
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/theme/Peacock (SL).tmTheme",
+	"default_line_ending": "unix",
+	"font_face": "Monaco",
+	"font_size": 18.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"original_color_scheme": "Packages/User/theme/Peacock (SL).tmTheme",
+	"phoenix_color_green": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_eighties": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_sidebar_tree_large": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_medium": true,
+	"rulers":
+	[
+		80,
+		100,
+		120
+	],
+	"show_encoding": true,
+	"soda_folder_icons": false,
+	"tab_size": 4,
+	"theme": "Phoenix Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": true,
+	"wrap_width": 0
+}

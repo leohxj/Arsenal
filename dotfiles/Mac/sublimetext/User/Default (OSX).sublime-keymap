@@ -1,0 +1,68 @@
+[
+    /*============= Emacs Style =============*/
+    { "keys": ["ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false} },
+    { "keys": ["ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true} },
+    { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward":
+    false} },
+    { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward":
+    true} },
+    { "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    { "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["ctrl+l"], "command": "show_at_center" },
+    /*============= End Emacs Style =============*/
+
+    /*============= switch tabs =============*/
+    { "keys": ["ctrl+1"], "command": "select_by_index", "args": { "index": 0 } },
+    { "keys": ["ctrl+2"], "command": "select_by_index", "args": { "index": 1 } },
+    { "keys": ["ctrl+3"], "command": "select_by_index", "args": { "index": 2 } },
+    { "keys": ["ctrl+4"], "command": "select_by_index", "args": { "index": 3 } },
+    { "keys": ["ctrl+5"], "command": "select_by_index", "args": { "index": 4 } },
+    { "keys": ["ctrl+6"], "command": "select_by_index", "args": { "index": 5 } },
+    { "keys": ["ctrl+7"], "command": "select_by_index", "args": { "index": 6 } },
+    { "keys": ["ctrl+8"], "command": "select_by_index", "args": { "index": 7 } },
+    { "keys": ["ctrl+9"], "command": "select_by_index", "args": { "index": 8 } },
+    { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+    /*============= End switch tabs =============*/
+
+    /*============= Modify Default key-mapping  =============*/
+    { "keys": ["super+a"], "command": "select_all" },
+    { "keys": ["super+t"], "command": "new_file" },
+    { "keys": ["f5"], "command": "open_in_browser" },
+    // autocomplate
+    { "keys": ["ctrl+/"], "command": "auto_complete" },
+    // paste
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+    // reindex
+    { "keys": ["ctrl+i"], "command": "reindent" },
+    // find and goto
+    { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find"} },
+    { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["super+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["super+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+    { "keys": ["super+d"], "command": "goto_definition" },
+    { "keys": ["super+-"], "command": "jump_back" },
+    { "keys": ["super+="], "command": "jump_forward" },
+    // keep the shortcut as Windows
+    { "keys": ["ctrl+d"], "command": "find_under_expand" },
+    { "keys": ["ctrl+g"], "command": "find_all_under" },
+    { "keys": ["ctrl+j"], "command": "join_lines" },
+    { "keys": ["ctrl+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
+    { "keys": ["ctrl+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    /*============= End Modify Default key-mapping  =============*/
+
+    /*============= Plugin =============*/
+    // Emmet expand
+    {"keys": ["super+e"], "args": {"action": "expand_abbreviation"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.expand_abbreviation"} ] },
+    // js Hint Grunt
+    {"keys": ["super+j"], "command": "jshint"},
+    // markdown preview
+    { "keys": ["super+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+    // terminal
+    { "keys": ["ctrl+super+t"], "command": "open_terminal" },
+    { "keys": ["ctrl+shift+super+t"], "command": "open_terminal_project_folder" },
+    // Align Tab
+    {"keys": ["super+ctrl+a"], "command": "align_tab", "args" : {"live_preview" : true} } 
+    /*============= End Plugin =============*/
+]

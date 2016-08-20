@@ -1,0 +1,32 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"All Autocomplete",
+		"AutoFileName",
+		"BracketHighlighter",
+		"CSScomb",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"JSHint Gutter",
+		"LESS",
+		"LiveStyle",
+		"Markdown Preview",
+		"Modific",
+		"MultiEditUtils",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-csslint",
+		"Sublimerge Pro",
+		"Terminal",
+		"Theme - Phoenix"
+	]
+}

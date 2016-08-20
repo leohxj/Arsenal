@@ -1,0 +1,12 @@
+I[http]
+	proxy = http://10.19.110.31:8080/
+[push]
+	default = simple
+[credential]
+	helper = !'C:\\Users\\15050107\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
+[user]
+	name = Leo Hui
+	email = leohxj@gmail.com
+[alias]
+	st = status
+    

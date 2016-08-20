@@ -1,0 +1,69 @@
+[
+/*============= Emacs Style =============*/
+{ "keys": ["ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false} },
+{ "keys": ["ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true} },
+{ "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+{ "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+{ "keys": ["ctrl+a"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+{ "keys": ["ctrl+e"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+{ "keys": ["ctrl+l"], "command": "show_at_center" },
+{ "keys": ["ctrl+alt+b"], "command": "move", "args": {"by": "words", "forward": false} },
+{ "keys": ["ctrl+alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+/*============= End Emacs Style =============*/
+
+/*============= Extend ctrl+k =============*/
+{ "keys": ["ctrl+k", "ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+{ "keys": ["ctrl+k", "ctrl+u"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+{ "keys": ["ctrl+k", "ctrl+d"], "command": "duplicate_line" },
+/*============= End Extend ctrl+k =============*/
+
+/*============= switch tabs =============*/
+{ "keys": ["ctrl+1"], "command": "select_by_index", "args": { "index": 0 } },
+{ "keys": ["ctrl+2"], "command": "select_by_index", "args": { "index": 1 } },
+{ "keys": ["ctrl+3"], "command": "select_by_index", "args": { "index": 2 } },
+{ "keys": ["ctrl+4"], "command": "select_by_index", "args": { "index": 3 } },
+{ "keys": ["ctrl+5"], "command": "select_by_index", "args": { "index": 4 } },
+{ "keys": ["ctrl+6"], "command": "select_by_index", "args": { "index": 5 } },
+{ "keys": ["ctrl+7"], "command": "select_by_index", "args": { "index": 6 } },
+{ "keys": ["ctrl+8"], "command": "select_by_index", "args": { "index": 7 } },
+{ "keys": ["ctrl+9"], "command": "select_by_index", "args": { "index": 8 } },
+/*============= End switch tabs =============*/
+
+/*============= Modify Default key-mapping  =============*/
+{ "keys": ["alt+a"], "command": "select_all" },
+{ "keys": ["ctrl+t"], "command": "new_file" },
+{ "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+{ "keys": ["f5"], "command": "open_in_browser" },
+// autocomplate
+{ "keys": ["alt+/"], "command": "auto_complete" },
+// paste
+{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
+{ "keys": ["ctrl+shift+v"], "command": "paste" },
+// reindex
+{ "keys": ["ctrl+i"], "command": "reindent" },
+// find and goto
+{ "keys": ["alt+f"], "command": "show_panel", "args": {"panel": "find"} },
+{ "keys": ["ctrl+g"], "command": "find_all_under" },
+{ "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+{ "keys": ["alt+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+{ "keys": ["alt+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+{ "keys": ["alt+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+{ "keys": ["alt+d"], "command": "goto_definition" },
+{ "keys": ["alt+-"], "command": "jump_back" },
+{ "keys": ["alt+="], "command": "jump_forward" },
+/*============= End Modify Default key-mapping  =============*/
+
+/*============= Plugin =============*/
+// Emmet expand
+{"keys": ["alt+e"], "args": {"action": "expand_abbreviation"}, "command": "run_emmet_action", "context": [{"key": "emmet_action_enabled.expand_abbreviation"} ] },
+// js Hint Grunt
+{"keys": ["alt+j"], "command": "jshint"},
+// markdown preview
+{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+// terminal
+{ "keys": ["ctrl+alt+t"], "command": "open_terminal" },
+{ "keys": ["ctrl+shift+alt+t"], "command": "open_terminal_project_folder" },
+// Align Tab
+{"keys": ["ctrl+alt+a"], "command": "align_tab", "args" : {"live_preview" : true} } 
+/*============= End Plugin =============*/
+]

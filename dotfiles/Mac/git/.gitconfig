@@ -1,0 +1,10 @@
+[push]
+    default = simple
+[user]
+    name = Leo Hui
+    email = leohxj@gmail.com
+[credential]
+    helper = osxkeychain
+[alias]
+    st = status
+    gi = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"

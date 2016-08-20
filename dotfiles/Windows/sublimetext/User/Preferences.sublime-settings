@@ -1,0 +1,33 @@
+{
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/theme/Peacock (SL).tmTheme",
+	"font_face": "YaHei Consolas Hybrid",
+	"font_size": 16.0,
+	"highlight_line": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"phoenix_color_green": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_eighties": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_sidebar_tree_large": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_medium": true,
+	"rulers":
+	[
+		80,
+		100,
+		120
+	],
+	"show_encoding": true,
+	"soda_folder_icons": false,
+	"tab_size": 4,
+	"theme": "Phoenix Dark.sublime-theme",
+	"default_line_ending": "unix",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true,
+	"wrap_width": 0
+}
