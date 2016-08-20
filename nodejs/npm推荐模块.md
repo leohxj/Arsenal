@@ -8,6 +8,7 @@
 - [auto-install](https://www.npmjs.com/package/auto-install): 监听文件中的模块引用，自动下载对应模块
 - [rimraf](https://www.npmjs.com/package/rimraf): 提供类似`rm -rf`命令
 - [tree-cli](https://www.npmjs.com/package/tree-cli): 树形显示工具
+- [generate/generate](https://github.com/generate/generate/): 命令行下生成文件的工具
 
 ## 组件工具
 - [grunt-cli](https://www.npmjs.com/package/grunt-cli): grunt命令行
