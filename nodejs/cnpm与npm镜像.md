@@ -16,11 +16,12 @@ windows下，可以在系统环境变量的某个目录，比如我指定添加�
 
 ```
 @echo off
-npm --registry=https://registry.npm.taobao.org \
---cache=$HOME/.npm/.cache/cnpm \
---disturl=https://npm.taobao.org/dist \
---userconfig=$HOME/.cnpmrc %*
+set HOME=C:\Users\15050107
+
+npm --registry=https://registry.npm.taobao.org --cache=%HOME%\.npm\.cache\cnpm --disturl=https://npm.taobao.org/dist --userconfig=%HOME%\.cnpmrc %*
 ```
+
+**注意**: windows下，需要设置内部环境变量`HOME`， 然后通过`%HOME%`形式获取，文件路径分隔符使用`\`。
 
 
 mac, linux 下，可设置:
