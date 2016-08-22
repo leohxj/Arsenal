@@ -16,7 +16,7 @@
 - [hakobera/nvmw](https://github.com/hakobera/nvmw)
 
 ### nvm-windows
-这是我在windows下使用的node版本管理工具。
+这是我在windows下使用的node版本管理工具。直接下载安装包，默认选项安装即可，升级也是再次安装。
 
 需要注意的是环境变量中，确保有`NVM_HOME`和`NVM_SYMLINK`, 在这两个之前应该还有一个`C:\Program Files\nodejs;`（如果之前安装过node应该是这样，默认nvm会安装对应版本的npm，但是也会安装失败，有一个这个路径，方便npm有默认值）
 
