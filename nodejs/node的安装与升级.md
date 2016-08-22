@@ -21,11 +21,14 @@
 需要注意的是环境变量中，确保有`NVM_HOME`和`NVM_SYMLINK`, 在这两个之前应该还有一个`C:\Program Files\nodejs;`（如果之前安装过node应该是这样，默认nvm会安装对应版本的npm，但是也会安装失败，有一个这个路径，方便npm有默认值）
 
 原理应该是这样的：
-> nvm会在~/user目录下，比如我当前`C:\Users\15050107\AppData\Roaming`创建一个nvm目录，所有node版本都在这里安装。同时`C:\Users\15050107\AppData\Roaming`下也会有一个默认的npm目录，管理npm。而`C:\Program Files\nodejs`目录是一个软链接，被nvm操作，指向当前版本的node。
+> nvm会在~/user目录下，比如我当前`~\AppData\Roaming`创建一个nvm目录，所有node版本都在这里安装。同时`~\AppData\Roaming`下也会有一个默认的npm目录，管理npm。而`C:\Program Files\nodejs`目录是一个软链接，被nvm操作，指向当前版本的node。
 
 但是每一个npm安装的模块，都会在nvm目录下对应的node里面的node_modules里。
 
-node模块寻找的路径，应该是优先查找`C:\Program Files\nodejs;`目录下，再查找`C:\Users\15050107\AppData\Roaming\npm`目录。
+node模块寻找的路径，应该是优先查找`C:\Program Files\nodejs`目录下，再查找`~\AppData\Roaming\npm`目录。
+
+**注意**: 系统的环境变量顺序，`C:\Program Files\nodejs` 应该在 `~\AppData\Roaming\npm` 之前，这样才能确保我们安装的npm被使用到，不然走的还是固定的`~\AppData\Roaming\npm`下版本。
+
 
 ## Mac平台
 参考: [搭建 Node.js 开发环境](https://github.com/alsotang/node-lessons/tree/master/lesson0)
