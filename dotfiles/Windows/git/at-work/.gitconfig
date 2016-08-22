@@ -1,12 +1,28 @@
-I[http]
-	proxy = http://10.19.110.31:8080/
+[http "http://github.com/"]
+    proxy = http://10.19.110.55:8080
+[http "https://github.com/"]
+    proxy = https://10.19.110.55:8080
+[http "http://git.coding.net/"]
+    proxy = http://10.19.110.55:8080
+[http "https://git.coding.net/"]
+    proxy = https://10.19.110.55:8080
+[http "http://bitbucket.org/"]
+    proxy = http://127.0.0.1:8123
+[http "https://bitbucket.org/"]
+    proxy = http://127.0.0.1:8123
 [push]
 	default = simple
-[credential]
-	helper = !'C:\\Users\\15050107\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
 [user]
 	name = Leo Hui
 	email = leohxj@gmail.com
 [alias]
 	st = status
-    
+    gi = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+[core]
+	autocrlf = true
+[url "https://"]
+	insteadOf = git://
+[http]
+	sslVerify = false
+[credential]
+	helper = manager
