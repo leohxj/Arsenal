@@ -15,7 +15,7 @@
 - [gulp-cli](https://www.npmjs.com/package/gulp-cli): gulp命令行
 - [vue-cli](https://www.npmjs.com/package/vue-cli): vue命令行脚手架
 - [tmodjs](https://www.npmjs.com/package/tmodjs): artTemplate模板预编译工具
-
+- [node-sass](https://github.com/sass/node-sass/releases): sass解释器
 
 ## es6
 - [es-checker](https://www.npmjs.com/package/es-checker): 检测node和浏览器对ECMAScript的支持程度
@@ -24,6 +24,8 @@
 - [http-server](https://www.npmjs.com/package/http-server)： 等价于`python -m SimpleHTTPServer`
 - [live-server](https://www.npmjs.com/package/live-server): 可自动刷新的静态服务器
 
+## 数据库
+- [Sequelize](https://github.com/sequelize/sequelize)
 
 ## 其他资料
 - [40 个你绝对离不开的 NPM 库](http://gold.xitu.io/entry/55ea6583ddb2e44a0462cc87)

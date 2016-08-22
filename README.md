@@ -3,6 +3,9 @@
 ## AutoHotkey
 Windows平台下自动化处理工具。
 
+## autojump
+命令行下跳转目录的快捷方式。
+
 ## dotfiles
 一些配置文件
 
@@ -21,3 +24,5 @@ nodejs相关。
 ## proxy
 代理设置相关。
 
+## recommend-software
+各平台下推荐的软件。
