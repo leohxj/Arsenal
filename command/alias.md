@@ -65,3 +65,4 @@ doskey ls=dir $*
 - [Permanent Windows command-line aliases with doskey and AutoRun](http://darkforge.blogspot.com/2010/08/permanent-windows-command-line-aliases.html)
 - [How to set aliases for the command prompt in Windows](http://winaero.com/blog/how-to-set-aliases-for-the-command-prompt-in-windows/)
 - [Adding an alias in Windows 7 or making ls = dir in a command prompt](http://www.rhyous.com/2010/10/20/adding-an-alias-in-windows-7-or-making-ls-dir-in-a-command-prompt/)
+
