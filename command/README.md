@@ -8,6 +8,10 @@
 
 直接下载安装，可安装在自定义的目录中，它会自动添加环境变量。
 
+## windows-bash-command
+在windows下，增加一些Uinx命令
+
+
 ## emulators
 仿真器。用来替代原生的cmd 或 terminal。
 
