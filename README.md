@@ -6,11 +6,11 @@ atom编辑器相关。
 ## AutoHotkey
 Windows平台下自动化处理工具。
 
-## autojump
-命令行下跳转目录的快捷方式。
-
 ## Chrome
 Chrome浏览器相关。
+
+## command
+命令行下相关。
 
 ## dotfiles
 一些配置文件
