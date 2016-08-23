@@ -29,6 +29,28 @@ node模块寻找的路径，应该是优先查找`C:\Program Files\nodejs`目录
 
 **注意**: 系统的环境变量顺序，`C:\Program Files\nodejs` 应该在 `~\AppData\Roaming\npm` 之前，这样才能确保我们安装的npm被使用到，不然走的还是固定的`~\AppData\Roaming\npm`下版本。
 
+#### 安装注意事项
+如果我们已经安装过了`node`，需要先卸载掉node，同时删除`~/User/AppData/Roaming/npm`目录。方便nvm进行npm的设置。
+
+#### nvm-windows配置
+通常我们会设置三个配置:
+- proxy: 代理服务器，用于内网设置了网络权限的情况，或者需要翻墙的情况
+- node_mirror： node镜像
+- npm_mirror: npm镜像
+
+注意，`v1.1.1`版本虽然提供了`nvm node_mirror` 和 `nvm npm_mirror` 命令，但是无效，还是手动修改配置文件吧。
+
+配置文件路径为 `~/User/AppData/Roaming/nvm/settings.txt`。内容大致如下:
+
+```
+root: C:\Users\15050107\AppData\Roaming\nvm
+arch: 64
+proxy: https://10.19.110.55:8080
+originalpath:
+originalversion:
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
+```
 
 ## Mac平台
 参考: [搭建 Node.js 开发环境](https://github.com/alsotang/node-lessons/tree/master/lesson0)

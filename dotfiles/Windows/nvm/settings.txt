@@ -1,0 +1,7 @@
+root: C:\Users\15050107\AppData\Roaming\nvm
+arch: 64
+proxy: https://10.19.110.55:8080
+originalpath:
+originalversion:
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
