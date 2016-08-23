@@ -1,6 +1,13 @@
 # init
 初始化`package.json`文件，方便依赖管理。
 
+对于已经存在的项目，也可以使用`npm init`， 它会自动生成项目的依赖关系，目录我使用这种方式对版本迁移的npm包进行重新安装：
+
+- 在老版本的node目录下，通过命令 `npm init` 生成 `package.json`文件。
+- 将生成的`package.json`放置在新版本node目录下，通过`npm install` 进行安装。
+
+当然如果我们在Mac平台下使用`nvm`进行管理，它有提供一个命令对`node_modules`进行迁移，具体查看`nvm help`命令。
+
 # install
 注意目录不要和包重名，不然在使用`npm install --save-dev xxx`的时候回报错：
 
