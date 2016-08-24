@@ -5,6 +5,7 @@
 ## windows下
 windows下我使用的是： [wting/autojump](https://github.com/wting/autojump)
 
+需要先确保安装clink, 再下载autojump，手动安装。
 
 ## mac下
 mac下，最好先安装`oh-my-zsh`，这个是个很强的命令行增强工具。
