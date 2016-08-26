@@ -33,7 +33,7 @@ gulp提供的watch方法，路径传递相对路径的话，不可监听文件�
 - [gulp-header](https://www.npmjs.com/package/gulp-header): 在文件头部添加文本内容
 
 ### 版本号处理
-- [gulp-rev-append](https://www.npmjs.com/package/gulp-rev-append)
+- [gulp-rev-append](https://www.npmjs.com/package/gulp-rev-append)：根据文件内容生成版本号。
 - [gulp-rev](https://www.npmjs.com/package/gulp-rev)
 
 ### 压缩处理
