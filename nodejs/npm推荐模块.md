@@ -9,6 +9,8 @@
 - [rimraf](https://www.npmjs.com/package/rimraf): 提供类似`rm -rf`命令
 - [tree-cli](https://www.npmjs.com/package/tree-cli): 树形显示工具
 - [generate/generate](https://github.com/generate/generate/): 命令行下生成文件的工具
+- [yargs](https://www.npmjs.com/package/yargs): 处理命令行输入的参数，转换为hash对象
+
 
 ## 组件工具
 - [grunt-cli](https://www.npmjs.com/package/grunt-cli): grunt命令行
