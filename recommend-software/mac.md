@@ -10,6 +10,8 @@
 - [某些情况下，你可以临时一键取消 OS X 开机启动项 | 一日一技 · Mac](http://sspai.com/33085)
 - [Homebrew 技巧：使用 Mackup 快速备份 Mac 软件的配置文件](http://sspai.com/32933)
 - [gongjianhui/AppleDNS](https://github.com/gongjianhui/AppleDNS): Apple 网络服务加速配置。真的快，快出声
+
+
 ## 软件
 - [SmartFinder](http://www.smartisan.com/apps/smartfinder): 锤子科技出品，管理android手机资源
 - [Tuck：提升屏幕窗口利用效率神器](http://www.waerfa.com/tuck-review)
@@ -35,3 +37,4 @@
 - [Mac Update Desktop](https://www.macupdate.com/): mac软件管理工具
 - [AirServer](http://www.airserver.com/Mac): AirPlay投射工具
 - [Mokey： Mac 初学者们值得入手的热键显示器](http://www.waerfa.com/mokey)
+- [iPic](https://itunes.apple.com/cn/app/id1101244278?ls=1&mt=12): 图床工具

@@ -5,13 +5,16 @@
 - cnpm模块
 - alias方式
 
-### 模块方式
+### cnpm 方式
 通过`npm install -g cnpm --registry=https://registry.npm.taobao.org` 来安装`cnpm`模块。
 
 **注意**：`cnpm`模块，对`node`版本有依赖，可通过 [package.json](https://github.com/cnpm/cnpm/blob/master/package.json) 查看，比如`4.3.1`版本，依赖的node需要 `"node": ">= 4.3.2"`
 
+cnpm 方式，在有些环境下存在一些问题，比如:
+- [用淘宝的 cnpm 遇到的一些问题](https://www.v2ex.com/t/302778#reply14)
+- [淘宝 NPM 镜像证书有问题？](https://www.v2ex.com/t/302554)
 
-## alias方式
+## alias 方式
 windows下，可以在系统环境变量的某个目录，比如我指定添加了一个`C:\Bin`目录，存放自己定义的一些方法，在其中添加 `cnpm.bat`, 文件内容为:
 
 ```
@@ -39,3 +42,7 @@ $ echo '\n#alias for cnpm\nalias cnpm="npm --registry=https://registry.npm.taoba
 ```
 
 这样，命令行下一样可以使用 `cnpm` 命令了。
+
+## 镜像
+- [淘宝](https://npm.taobao.org/)
+- [中科大](https://lug.ustc.edu.cn/wiki/mirrors/help/npm)

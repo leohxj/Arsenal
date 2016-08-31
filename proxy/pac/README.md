@@ -1,0 +1,2 @@
+- [这可能是唯一一个支持 Socks5 的 PAC 服务，一路走来终于和大家见面。](https://www.v2ex.com/t/300973#reply105)
+- [haad/proxychains](https://github.com/haad/proxychains): proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy. Supported auth-types: "user/pass" for SOCKS4/5, "basic" for HTTP. http://proxychains.sourceforge.net/
