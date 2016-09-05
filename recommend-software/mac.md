@@ -38,3 +38,6 @@
 - [AirServer](http://www.airserver.com/Mac): AirPlay投射工具
 - [Mokey： Mac 初学者们值得入手的热键显示器](http://www.waerfa.com/mokey)
 - [iPic](https://itunes.apple.com/cn/app/id1101244278?ls=1&mt=12): 图床工具
+
+## 剪切板工具
+- [pastebot](http://tapbots.com/pastebot/)

@@ -46,10 +46,10 @@ npm没有直接提供配置`alias`方式，它内置了一些, 比如 `npm ls` �
 
 ```
 @echo off
-explorer.exe $*
+explorer.exe %*
 ```
 
-在命令行下，使用`open .` 即可在资源管理器中打开当前目录。
+在命令行下，使用`open .` 即可在资源管理器中打开当前目录。**注意：**这里我们使用的是 `%`, 而不是下面的 `$` 。
 
 ## doskey
 windows批处理提供一个`doskey`命令，相当于`alias`,比如我们建立一个`alias.bat`文件，内容为:
