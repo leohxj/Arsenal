@@ -32,12 +32,14 @@
 - [Mac Tool Kit](http://pinggod.com/2015/mac-tool-kit/)
 - [typeit4me](http://www.ettoresoftware.com/mac-apps/typeit4me/): 快捷输入工具
 - [Surga for MAC 使用指南](https://medium.com/@scomper/surge-for-mac-%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97-f6f357b8f09c#.uggm33v9z)
-- [图床神器 iPic，一边倒的好评，大家随意感受下~](https://www.v2ex.com/t/290548#reply94)
 - [Beamer](https://beamer-app.com/download): airplay投射软件
 - [Mac Update Desktop](https://www.macupdate.com/): mac软件管理工具
 - [AirServer](http://www.airserver.com/Mac): AirPlay投射工具
 - [Mokey： Mac 初学者们值得入手的热键显示器](http://www.waerfa.com/mokey)
 - [iPic](https://itunes.apple.com/cn/app/id1101244278?ls=1&mt=12): 图床工具
+- [Typeeto](http://www.iplaysoft.com/typeeto.html): 虚拟蓝牙键盘
+- [Aria2GUI](https://github.com/yangshun1029/aria2gui): 下载工具
+
 
 ## 剪切板工具
 - [pastebot](http://tapbots.com/pastebot/)
