@@ -31,3 +31,115 @@
 - [Android 系统上的 Xposed 框架中都有哪些值得推荐的模块？](https://www.zhihu.com/question/22063862)
 - [Link － 无缝链接你的应用人生](http://www.appnz.com/29356): 国内版本的workflow
 - [大家的 Android 手机上面安装都有哪些好用的软件?](https://www.v2ex.com/t/276052)
+
+
+## 英语 
+- 扇贝相关的
+- 欧陆词典
+
+## 学习
+- 网易云课堂
+- 网易公开课
+- 麦子学院
+- 慕课网
+- 牛客网
+- udacity
+
+## 吉他学习
+- Yousician
+- GuitarTune
+- 有谱么
+- Poputar
+- Finger
+- 爱玩吉他
+
+
+## 游戏
+- 小鸡模拟器
+- 炉石传说
+- 网易安全令
+- Stack
+
+## 工具
+- Dropbox
+- 名片全能王
+- 小米 wifi
+- speedtest
+- 1Password
+- 微鲸电视助手
+- shadowsocks
+- bitTorrent Sync
+- better open with
+- Total Commander
+- RescueTime
+- Brave
+
+## 浏览器
+- Chrome
+- UC
+- QQ
+
+## 影视
+- VCL
+- iQiyi
+- Youku
+- Youtube
+- 网易云音乐
+- Instergram
+- 电视家 2.0
+- MUJI to Relax
+- PocketCasts
+- 蜻蜓FM
+
+
+## 生活服务
+- 高铁管家
+- 巴士管家
+- 高德地图
+- 嘀嘀打车
+- 许多卡
+- 移动营业厅
+- 联通营业厅
+
+## 运动健身
+- Keep
+- 丁香园
+- adidas train & run
+- nick+ Training
+- Seven
+- Bong
+
+
+## 美食
+- 下厨房
+- 厨房故事
+
+## 购物
+- 淘宝
+- 京东
+- 苏宁
+- 支付宝
+- 团800
+- 大众点评
+- 格瓦拉电影
+
+## 冥思
+- Pause
+- PranayamaFree
+
+## 个人管理
+- Any.do
+- Trello
+- 倒数日
+- Fabulous
+- Rewire
+- SwipeTimes
+- 番茄土豆
+
+## 新闻资源
+- 微博
+- Twitter
+- 知乎
+- 知乎日报
+- 一览
+- 好奇心日报
