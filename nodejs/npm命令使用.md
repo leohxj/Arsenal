@@ -46,3 +46,4 @@ npm在安装包的时候没有这么“智能”，不过npm dedupe命令做的�
 - [玩转npm](http://www.alloyteam.com/2016/03/master-npm/)
 - [npm 模块安装机制简介](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
 - [Do not sudo npm](http://givan.se/do-not-sudo-npm/)
+- [[译] 让人倾倒的 11 个 Npm Trick](http://www.wemlion.com/2016/eleven-npm-tricks-that-will-knock-your-wombat-socks-off/)
