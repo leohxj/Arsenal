@@ -21,6 +21,28 @@ install 命令还可以简写为: `npm i xxx`
 - `--save-dev` or `-D`
 
 
+# outdated
+查看当前仓库安装的模块是否有需要更新的。
+
+运行结果大概是这样:
+
+```
+Package             Current  Wanted  Latest  Location
+cross-env             1.0.8   1.0.8   2.0.1  mvs-with-webpack
+css-loader           0.23.1  0.23.1  0.25.0  mvs-with-webpack
+file-loader           0.8.5   0.8.5   0.9.0  mvs-with-webpack
+grunt                 0.4.5   0.4.5   1.0.1  mvs-with-webpack
+vue-hot-reload-api    1.3.3   1.3.3   2.0.6  mvs-with-webpack
+vue-loader            8.5.2   8.5.3   8.5.2  mvs-with-webpack
+```
+
+几个字段含义为:
+- Package: 模块名称
+- Current: 当前安装版本
+- Wanted: 符合 `package.json` 中定义的最新版本，此版本可能比 `npmjs.com` 仓库上还新，因为模块可能没有 `npm publish`
+- Latest: `npmjs.com` 仓库中最新版本
+- Location: 模块物理位置
+
 
 # list
 显示安装的模块，有一些参数:
