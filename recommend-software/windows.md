@@ -1,3 +1,7 @@
+## 软件管理
+- [Chocolatey](https://chocolatey.org/): The package manager for Windows
+- [Ninite](https://ninite.com/)
+
 ## 窗口管理
 - [fuhsjr00/bug.n](https://github.com/fuhsjr00/bug.n): aka插件
 - [DannyBen/Gridy](https://github.com/DannyBen/Gridy): aka插件

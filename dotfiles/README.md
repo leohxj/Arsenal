@@ -25,3 +25,4 @@ $ ./setup.sh
 - [webpro/awesome-dotfiles](https://github.com/webpro/awesome-dotfiles)
 - [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [Dotfiles Are Meant to Be Forked](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/)
+- [nightire/dotfiles](https://github.com/nightire/dotfiles): 打造极致的开发环境
