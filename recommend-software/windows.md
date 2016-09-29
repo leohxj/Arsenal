@@ -11,7 +11,7 @@
 ## 鼠标手势
 - [提高鼠标操作效率，两款 Windows 快捷手势工具：搜狗鼠标手势、WGestures](http://sspai.com/33351)
 - [Trackpad++](http://trackpad.powerplan7.com/): 体验类似mac的触控板效果
-
+- [DeskDock - 用电脑上的鼠标键盘来控制安卓 Android 手机平板 (剪贴板共享)](http://www.iplaysoft.com/deskdock.html)
 
 ## 快捷按键
 - [launchy](http://www.launchy.net/)
