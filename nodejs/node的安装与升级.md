@@ -56,7 +56,7 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
 参考: [搭建 Node.js 开发环境](https://github.com/alsotang/node-lessons/tree/master/lesson0)
 
 推荐几个工具：
-- [tj/n](https://github.com/tj/n)
+- [tj/n](https://github.com/tj/n): npm 的一个模块，但是目前还不支持 windows 平台
 - [OiNutter/nodenv](https://github.com/OiNutter/nodenv)
 - [creationix/nvm](https://github.com/creationix/nvm)
 
@@ -64,3 +64,7 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
 # 国内镜像
 由于GFW的关系，我们使用`npm`进行模块安装的时候，可能会失败。所以我们需要对应的国内镜像，比较出名和经常使用的是:
 - [淘宝 NPM 镜像](https://npm.taobao.org/)
+
+
+## 参考
+- [管理 node 版本，选择 nvm 还是 n？](http://taobaofed.org/blog/2015/11/17/nvm-or-n/)
