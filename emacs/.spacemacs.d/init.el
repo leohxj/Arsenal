@@ -36,8 +36,10 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     ;; smex is handled by the `ivy' layer and we don't want to use
+     ;; the ownership mechanism of layers because it is dependent
+     ;; on the order of layer declaration
      ivy
-     ;; smex
      better-defaults
      (auto-completion :variables auto-completion-enable-sort-by-usage t
                       auto-completion-enable-snippets-in-popup t
@@ -308,6 +310,10 @@ you should place your code here."
   (menu-bar-mode 1)
   ;; force horizontal split window
   (setq split-width-threshold 120)
+
+  ;; fixed: batter-defaults, `C-e` conflict
+  (define-key evil-insert-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
+  (define-key evil-motion-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
   )
 
 
