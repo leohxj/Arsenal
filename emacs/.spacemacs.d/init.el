@@ -52,6 +52,7 @@ values."
             shell-default-position 'bottom)
      (chinese :packages youdao-dictionary
               :variables chinese-enable-youdao-dict t)
+     (colors :variables colors-enable-nyan-cat-progress-bar t)
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
@@ -331,6 +332,10 @@ you should place your code here."
       (set-fontset-font (frame-parameter nil 'font)
                         charset
                         (font-spec :family "Microsoft Yahei" :size 14))))
+
+  ;; config nyan-mode
+  (setq nyan-wavy-trail nil)
+  (setq nyan-bar-length 32)
   )
 
 
