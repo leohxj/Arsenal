@@ -50,6 +50,7 @@ values."
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
+     (osx :variables osx-dictionary-dictionary-choice "Simplified Chinese - English")
      (chinese :packages youdao-dictionary
               :variables chinese-enable-youdao-dict t)
      (colors :variables colors-enable-nyan-cat-progress-bar t)
@@ -310,7 +311,9 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+  ;; show menu-bar
   (menu-bar-mode 1)
+
   ;; force horizontal split window
   (setq split-width-threshold 120)
 
@@ -336,6 +339,18 @@ you should place your code here."
   ;; config nyan-mode
   (setq nyan-wavy-trail nil)
   (setq nyan-bar-length 32)
+
+  ;; fixed: osx spaceline color (less saturated)
+  (setq ns-use-srgb-colorspace nil)
+  (setq powerline-default-separator 'utf-8)
+
+  ;; disabled env advice on startup
+  (setq exec-path-from-shell-check-startup-files nil)
+
+  ;; fixed: open file with mouse-1-click, it will paste some chars
+  
+  (add-hook 'spacemacs-buffer-mode-hook (lambda ()
+  (set (make-local-variable 'mouse-1-click-follows-link) nil)))  
   )
 
 
