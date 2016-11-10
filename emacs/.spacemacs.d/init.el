@@ -50,6 +50,8 @@ values."
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
+     (chinese :packages youdao-dictionary
+              :variables chinese-enable-youdao-dict t)
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
@@ -314,6 +316,21 @@ you should place your code here."
   ;; fixed: batter-defaults, `C-e` conflict
   (define-key evil-insert-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
   (define-key evil-motion-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
+
+  ;; add youdaodict
+  (define-key global-map (kbd "C-c y") 'youdao-dictionary-search-at-point)
+
+  ;;解决org表格里面中英文对齐的问题
+  (when (configuration-layer/layer-usedp 'chinese)
+    (when (and (spacemacs/system-is-mac) window-system)
+      (spacemacs//set-monospaced-font "Source Code Pro" "Hiragino Sans GB" 14 16)))
+
+  ;; Setting Chinese Font
+  (when (and (spacemacs/system-is-mswindows) window-system)
+    (dolist (charset '(kana han symbol cjk-misc bopomofo))
+      (set-fontset-font (frame-parameter nil 'font)
+                        charset
+                        (font-spec :family "Microsoft Yahei" :size 14))))
   )
 
 
