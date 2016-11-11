@@ -348,9 +348,11 @@ you should place your code here."
   (setq exec-path-from-shell-check-startup-files nil)
 
   ;; fixed: open file with mouse-1-click, it will paste some chars
-  
   (add-hook 'spacemacs-buffer-mode-hook (lambda ()
-  (set (make-local-variable 'mouse-1-click-follows-link) nil)))  
+  (set (make-local-variable 'mouse-1-click-follows-link) nil)))
+
+  ;; set Powerline separators
+  (setq powerline-default-separator 'arrow)
   )
 
 
