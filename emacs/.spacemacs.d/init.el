@@ -302,6 +302,10 @@ before packages are loaded. If you are unsure, you should try in setting them in
       '(("melpa-cn" . "http://elpa.zilongshanren.com/melpa/")
         ("org-cn"   . "http://elpa.zilongshanren.com/org/")
         ("gnu-cn"   . "http://elpa.zilongshanren.com/gnu/")))
+
+
+  ;; disabled env advice on startup
+  (setq exec-path-from-shell-check-startup-files nil)
   )
 
 (defun dotspacemacs/user-config ()
@@ -344,8 +348,6 @@ you should place your code here."
   (setq ns-use-srgb-colorspace nil)
   (setq powerline-default-separator 'utf-8)
 
-  ;; disabled env advice on startup
-  (setq exec-path-from-shell-check-startup-files nil)
 
   ;; fixed: open file with mouse-1-click, it will paste some chars
   (add-hook 'spacemacs-buffer-mode-hook (lambda ()
