@@ -135,3 +135,9 @@ WinR() {
 	Send ^r
 }
 <#r::WinR()
+
+; Windows + S
+WinS() {
+	Send ^s
+}
+<#s::WinS()
