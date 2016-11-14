@@ -117,6 +117,17 @@ else
         Send {Blind}{LCtrl Up}{Up}{LCtrl Down}
 Return
 
+*[::
+GetKeyState, state, Shift
+if state = D
+    Send +^[
+else
+    If InTerminal()
+        Send ^[
+    Else
+        Send {Blind}{LCtrl Up}{Esc}{LCtrl Down}
+Return
+
 #IfWinExist, ; end context-sensitive block
 
 
@@ -197,3 +208,7 @@ WinS() {
 	Send ^s
 }
 <#s::WinS()
+
+; --------------------------------------------------------------
+
+
