@@ -16,11 +16,6 @@
 ; Programs which use Widnows key map
 ; --------------------------------------------------------------
 
-GroupAdd, Terminal, ahk_class mintty
-GroupAdd, Terminal, ahk_class Vim
-GroupAdd, Terminal, ahk_class PuTTY
-GroupAdd, Terminal, ahk_class VanDyke Software - SecureCRT
-GroupAdd, Terminal, ahk_class VirtualConsoleClass
 GroupAdd, Terminal, ahk_class Emacs
 
 GroupAdd, Jetbrains, ahk_class SunAwtDialog
@@ -52,14 +47,51 @@ Capslock::
 Return
 
 #IfWinExist, Enable nav-hotkeys: emacs
-
 ;; mock emacs move
-*a::Send {Blind}{LCtrl Up}{Home}{LCtrl Down}
-*e::Send {Blind}{LCtrl Up}{End}{LCtrl Down}
-*b::Send {Blind}{LCtrl Up}{Left}{LCtrl Down}
-*f::Send {Blind}{LCtrl Up}{Right}{LCtrl Down}
-*n::Send {Blind}{LCtrl Up}{Down}{LCtrl Down}
-*p::Send {Blind}{LCtrl Up}{Up}{LCtrl Down}
+
+*a::
+If InTerminal()
+Send ^a
+Else
+Send {Blind}{LCtrl Up}{Home}{LCtrl Down}
+Return
+
+
+*e::
+If InTerminal()
+Send ^e
+Else
+Send {Blind}{LCtrl Up}{End}{LCtrl Down}
+Return
+
+*b::
+If InTerminal()
+Send ^b
+Else
+Send {Blind}{LCtrl Up}{Left}{LCtrl Down}
+Return
+
+
+*f::
+If InTerminal()
+Send ^f
+Else
+Send {Blind}{LCtrl Up}{Right}{LCtrl Down}
+Return
+
+*n::
+If InTerminal()
+Send ^n
+Else
+Send {Blind}{LCtrl Up}{Down}{LCtrl Down}
+Return
+
+*p::
+If InTerminal()
+Send ^p
+Else
+Send {Blind}{LCtrl Up}{Up}{LCtrl Down}
+Return
 
 #IfWinExist, ; end context-sensitive block
 
