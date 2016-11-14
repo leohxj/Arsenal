@@ -52,47 +52,69 @@ Return
 ;; mock emacs move
 
 *a::
-If InTerminal()
-Send ^a
-Else
-Send {Blind}{LCtrl Up}{Home}{LCtrl Down}
+GetKeyState, state, Shift
+if state = D
+    Send +^a
+else
+    If InTerminal()
+        Send ^a
+    Else
+        Send {Blind}{LCtrl Up}{Home}{LCtrl Down}
 Return
 
-
 *e::
-If InTerminal()
-Send ^e
-Else
-Send {Blind}{LCtrl Up}{End}{LCtrl Down}
+GetKeyState, state, Shift
+if state = D
+    Send +^e
+else
+    If InTerminal()
+        Send ^e
+    Else
+        Send {Blind}{LCtrl Up}{End}{LCtrl Down}
 Return
 
 *b::
-If InTerminal()
-Send ^b
-Else
-Send {Blind}{LCtrl Up}{Left}{LCtrl Down}
+GetKeyState, state, Shift
+if state = D
+    Send +^b
+else
+    If InTerminal()
+        Send ^b
+    Else
+        Send {Blind}{LCtrl Up}{Left}{LCtrl Down}
 Return
 
-
 *f::
-If InTerminal()
-Send ^f
-Else
-Send {Blind}{LCtrl Up}{Right}{LCtrl Down}
+GetKeyState, state, Shift
+if state = D
+    Send +^f
+else
+    If InTerminal()
+        Send ^f
+    Else
+        Send {Blind}{LCtrl Up}{Right}{LCtrl Down}
 Return
 
 *n::
-If InTerminal()
-Send ^n
-Else
-Send {Blind}{LCtrl Up}{Down}{LCtrl Down}
+GetKeyState, state, Shift
+if state = D
+    Send +^n
+else
+    If InTerminal()
+        Send ^n
+    Else
+        Send {Blind}{LCtrl Up}{Down}{LCtrl Down}
 Return
 
 *p::
-If InTerminal()
-Send ^p
-Else
-Send {Blind}{LCtrl Up}{Up}{LCtrl Down}
+GetKeyState, state, Shift
+if state = D
+    Send +^p
+else
+    If InTerminal()
+        Send ^p
+    Else
+        Send {Blind}{LCtrl Up}{Up}{LCtrl Down}
 Return
 
 #IfWinExist, ; end context-sensitive block
