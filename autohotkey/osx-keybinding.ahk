@@ -17,8 +17,8 @@
 ; --------------------------------------------------------------
 
 GroupAdd, Terminal, ahk_class Emacs
-GroupAdd, Terminal, ahk_class SunAwtDialog
-GroupAdd, Terminal, ahk_class SunAwtFrame
+; GroupAdd, Terminal, ahk_class SunAwtDialog
+; GroupAdd, Terminal, ahk_class SunAwtFrame
 
 GroupAdd, Jetbrains, ahk_class SunAwtDialog
 GroupAdd, Jetbrains, ahk_class SunAwtFrame
