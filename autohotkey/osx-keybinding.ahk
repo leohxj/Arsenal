@@ -212,3 +212,12 @@ WinS() {
 ; --------------------------------------------------------------
 
 
+;; if you swipe alt and windows, cancel blow comment
+LWin & Tab::AltTab
+
+
+; Windows + `
+WinPonit() {
+    Send !~
+}
+<#`::WinPonit()
