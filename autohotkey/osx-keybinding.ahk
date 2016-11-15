@@ -211,13 +211,27 @@ WinS() {
 
 ; --------------------------------------------------------------
 
-
+;; --------------------------------------
 ;; if you swipe alt and windows, cancel blow comment
-LWin & Tab::AltTab
+;; --------------------------------------
 
+LWin & Tab::AltTab
 
 ; Windows + `
 WinPonit() {
     Send !~
 }
 <#`::WinPonit()
+
+;; --------------------------------------
+;; some common shortcuts for windows app
+;; --------------------------------------
+
+;;ctrl + alt + key
+#^x::Send !^x
+#^c::Send !^c
+#^z::Send !^z
+#^a::Send !^a
+
+;; shift + alt + key
+#+v::Send !+v
