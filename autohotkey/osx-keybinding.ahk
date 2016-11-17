@@ -117,6 +117,9 @@ else
         Send {Blind}{LCtrl Up}{Up}{LCtrl Down}
 Return
 
+;; caps(ctrl) + alt + p
+*!p::^!p
+
 *[::
 GetKeyState, state, Shift
 if state = D
@@ -227,11 +230,11 @@ WinPonit() {
 ;; some common shortcuts for windows app
 ;; --------------------------------------
 
-;;ctrl + alt + key
+;; caps(ctrl) + win(alt) + key
 #^x::Send !^x
 #^c::Send !^c
 #^z::Send !^z
 #^a::Send !^a
 
-;; shift + alt + key
+;; shift + win(alt) + key
 #+v::Send !+v
