@@ -1,1 +1,3 @@
 Atom是github出品的一款文本编辑器。
+
+如果你开发 React 相关内容的话，推荐安装: [Nuclide: Facebook 推出的一套基于 Atom 的开发工具集](https://nuclide.io/)
