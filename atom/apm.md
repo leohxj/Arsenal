@@ -17,3 +17,4 @@ apm, Atom Package Manager。用来安装和管理 Atom 相关插件。
 ## 手动安装插件
 插件最终下载到的目录是`~/.atom/packages`中，所以我们也可以下载对应的插件，防止到此目录下。
 
+
