@@ -1,3 +1,4 @@
 strict-ssl=false
-https-proxy=http://10.19.110.55:8080
-registry=http://registry.npm.taobao.org
+http-proxy =http://10.19.110.55:8080/
+https-proxy=http://10.19.110.55:8080/
+registry=https://registry.npm.taobao.org
