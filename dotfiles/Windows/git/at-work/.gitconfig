@@ -1,7 +1,7 @@
 [http "http://github.com/"]
-    proxy = http://10.19.110.55:8080
+    proxy = http://127.0.0.1:8123
 [http "https://github.com/"]
-    proxy = https://10.19.110.55:8080
+    proxy = http://127.0.0.1:8123
 [http "http://git.coding.net/"]
     proxy = http://10.19.110.55:8080
 [http "https://git.coding.net/"]
@@ -11,18 +11,19 @@
 [http "https://bitbucket.org/"]
     proxy = http://127.0.0.1:8123
 [push]
-	default = simple
+    default = simple
 [user]
-	name = Leo Hui
-	email = leohxj@gmail.com
+    name = Leo Hui
+    email = leohxj@gmail.com
 [alias]
-	st = status
+    st = status
     gi = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
 [core]
-	autocrlf = true
+    autocrlf = true
 [url "https://"]
-	insteadOf = git://
+    insteadOf = git://
 [http]
-	sslVerify = false
+    sslVerify = false
 [credential]
-	helper = manager
+    helper = manager
+    httpProxy = http://10.19.110.55:8080
