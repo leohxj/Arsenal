@@ -2,6 +2,9 @@
 ## 概述
 node-gyp在windows下编译程序需要c++ build, 所以建议安装vs。
 
+**2016-11-20 更新**： 现在可以通过 `npm install --global --production windows-build-tools` 安装所依赖的windows 工具。原来手动配置的方式还是如下:
+
+ 
 ## 解决方案
 npmrc中插入一句: 这句是为了啥，我也不知道！
 ```
