@@ -1,35 +1,35 @@
-﻿; Fast open application
+﻿; Fast open application using alt on Windows
 ; List custom keymap
 ; customkey: Meta(win)
 ;-----------------------------------------------------
 ; | q: zeal       | w: sublime    | e: ConEmu64   |
 ; | a:            | s:            | d:            |
-; | z:            | x: 1passowrd  | c:            | 
+; | z:            | x:            | c:            |
 ;-----------------------------------------------------
 
-#q::
+!q::
 DetectHiddenWindows, on
-IfWinNotExist ahk_exe zeal.exe
+IfWinNotExist ahk_class Qt5QWindowIcon ahk_exe zeal.exe
 Run "D:\Program Files (x86)\Zeal\zeal.exe"
 Else
-IfWinNotActive ahk_exe zeal.exe
+IfWinNotActive ahk_class Qt5QWindowIcon ahk_exe zeal.exe
 WinActivate
 Else
 WinMinimize
 Return
 
-#w::
+!w::
 DetectHiddenWindows, on
-IfWinNotExist ahk_exe sublime_text.exe
-Run "D:\Program Files (x86)\Sublime Text 3\sublime_text.exe"
+IfWinNotExist ahk_class Chrome_WidgetWin_1 ahk_exe atom.exe
+Run "C:\Users\15050107\AppData\Local\atom\bin\atom.cmd"
 Else
-IfWinNotActive ahk_exe sublime_text.exe
+IfWinNotActive ahk_class Chrome_WidgetWin_1 ahk_exe atom.exe
 WinActivate
 Else
 WinMinimize
 Return
 
-#e::
+!e::
 DetectHiddenWindows, on
 IfWinNotExist ahk_class VirtualConsoleClass
 Run "D:\Program Files (x86)\ConEmu\ConEmu64.exe", e:
@@ -40,13 +40,12 @@ Else
 WinMinimize
 Return
 
-#x::
-DetectHiddenWindows, on
-IfWinNotExist ahk_class TFrm1pMain
-Run "D:\Program Files (x86)\1Password 4\1Password.exe"
-Else
-IfWinNotActive ahk_class TFrm1pMain
-WinActivate
-Else
-WinMinimize
-Return
+;-----------------------------------------------------
+;; alt+Num -> win+Num
+
+!1::Send {LWin down}{1}{LWin up}
+!2::Send {LWin down}{2}{LWin up}
+!3::Send {LWin down}{3}{LWin up}
+!4::Send {LWin down}{4}{LWin up}
+
+;-----------------------------------------------------

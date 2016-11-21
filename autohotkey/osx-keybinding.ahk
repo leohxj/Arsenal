@@ -212,6 +212,11 @@ WinS() {
 }
 <#s::WinS()
 
+;; you may using below method to map some keys, Such as:
+;; Closing windows and programs (using the Win Key)
+; !w::Send {LCtrl down}{F4}{LCtrl up}
+; !q::!F4
+
 ; --------------------------------------------------------------
 
 ;; --------------------------------------
