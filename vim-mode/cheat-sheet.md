@@ -119,7 +119,7 @@
 
 # ctrl 组合按键
 
-- `ctrl-r`: redo
+- `ctrl-r`: redo (可被系统 Replace 替换)， 在 vim 中 使用 `.` 进行 redo
 - `ctrl-d`: 向下翻滚半个屏幕
 - `ctrl-u`: 向上翻滚半个屏幕·
 - `ctrl-i`: jump to your previous navigation location
