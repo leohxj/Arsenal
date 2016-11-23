@@ -61,6 +61,14 @@ ideavim 默认使用的是 vim 自己的寄存器，所以我们要创建一个 
 
 使用的插件为 [vim-mode-plus](https://atom.io/packages/vim-mode-plus), 在其设置项中，有一个选项可以控制是否使用系统剪切板。
 
+
+# 搜索模式下如何插入文本
+还有一个问题是，vim 的命令模式，比如 `/`，`:` 进入，默认是输入模式，如有需要粘贴文本，我们可以通过 `ctrl-r [寄存器]`, 比如 `ctrl-r +`，粘贴我们剪切板的内容。
+
+这里说明了我们还是应该保留 `ctrl-r` 组合键功能，不要用于替换为 ide 或 编辑器的替换。
+
+在 ideavim 插件下，`:reg` 查看中文有可能是乱码，是因为 配置的字体不支持中文，修改为 `yahei console hybird` 即可。
+
 ## 参考
 
 - [How to delete (not cut) in Vim?](http://stackoverflow.com/questions/11993851/how-to-delete-not-cut-in-vim#11993928)
