@@ -1,0 +1,5 @@
+set clipboard=unnamed
+
+let mapleader = " "
+
+set nospell

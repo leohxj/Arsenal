@@ -12,10 +12,9 @@ if has('gui_running')
     endif
 endif
 
-set clipboard=unnamed
-
-Bundle 'rakr/vim-one'
 
 set background=dark       " for the light version
 let g:airline_theme='one'
 colorscheme one
+
+
