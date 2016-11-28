@@ -1,1 +1,3 @@
-Bundle 'rakr/vim-one'
+Plugin 'rakr/vim-one'
+Plugin 'mhinz/vim-startify'
+Plugin 'ShowTrailingWhitespace'
