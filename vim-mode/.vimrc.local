@@ -1,3 +1,4 @@
 set clipboard=unnamed
 set wrap
 set nospell
+colorscheme ron

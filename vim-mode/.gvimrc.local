@@ -16,5 +16,4 @@ endif
 set background=dark       " for the light version
 let g:airline_theme='one'
 colorscheme one
-
-
+au InsertLeave * hi Cursor guibg=gray " set cursor color
