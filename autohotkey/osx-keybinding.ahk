@@ -212,6 +212,14 @@ WinS() {
 }
 <#s::WinS()
 
+winE() {
+	Send ^e
+}
+<#e::WinE()
+
+;; win + space => change differ input source
+#Space::Send ^{Space}
+
 ;; you may using below method to map some keys, Such as:
 ;; Closing windows and programs (using the Win Key)
 ; !w::Send {LCtrl down}{F4}{LCtrl up}
