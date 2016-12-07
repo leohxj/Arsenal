@@ -319,6 +319,9 @@ you should place your code here."
   ;; show menu-bar
   (menu-bar-mode 1)
 
+  ;; change line-highlight color
+  (set-face-background 'hl-line "#343d46")
+
   ;; force horizontal split window
   (setq split-width-threshold 120)
 
