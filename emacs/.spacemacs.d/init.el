@@ -330,8 +330,7 @@ you should place your code here."
   (define-key evil-motion-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
 
   ;; evil-escape, if key sequence is composed with the smae characters, recommended to set delay to 0.2
-  (setq-default evil-escape-key-sequence "jj")
-  (setq-default evil-escape-delay 0.2)
+  (setq-default evil-escape-key-sequence "df")
 
   ;; add youdaodict
   (define-key global-map (kbd "C-c y") 'youdao-dictionary-search-at-point)

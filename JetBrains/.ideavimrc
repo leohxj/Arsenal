@@ -1,0 +1,5 @@
+set clipboard=unnamed
+
+imap df <Esc>
+let mapleader = " "
+map <leader>a :action $SelectAll<CR>
