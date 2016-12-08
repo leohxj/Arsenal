@@ -153,3 +153,8 @@
 - `gt`: 移动到下一个 tab 页
 
 - `gT`: 移动到上一个 tab 页
+
+
+## 参考资料
+- 返回 normal, 推荐使用 `ctrl-[` , 避免过多的自定义
+- 减少使用 `hjkl` 移动光标，[habit-breaking-habit-making](http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/)
