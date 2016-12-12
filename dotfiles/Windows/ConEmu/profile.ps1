@@ -181,11 +181,4 @@ Custom prompt functions are loaded in as constants to get the same behaviour
 Set-Item -Path function:\prompt  -Value $Prompt  -Options ReadOnly
 
 
-# custom alias
 
-new-alias -name "open" -value explorer
-new-alias -name "z" -value j
-
-function cnpm {
-    npm --registry=https://registry.npm.taobao.org --cache=C:\Users\15050107\.npm\.cache\cnpm --disturl=https://npm.taobao.org/dist --userconfig=C:\Users\15050107\.cnpmrc $args
-}
