@@ -1,0 +1,4 @@
+- [Facebook: Yarn](https://yarnpkg.com/): Facebook 出品的包管理工具。
+- [Yarn Docs](https://yarnpkg.com/en/docs/): 文档以及教程，yarn config 也继承了 npm 的配置。
+- [Yarn vs npm：你需要知道的一切](https://zhuanlan.zhihu.com/p/23493436)
+- [Yarn demo](https://github.com/yarnpkg/example-yarn-package)

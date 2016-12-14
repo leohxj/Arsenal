@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "grunt-cli": "^1.2.0",
+    "gulp-cli": "^1.2.2",
+    "npm": "^4.0.3",
+    "rimraf": "^2.5.4",
+    "tree-cli": "^0.4.9",
+    "vue-cli": "^2.5.1"
+  }
+}
