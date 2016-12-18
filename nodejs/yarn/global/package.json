@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "hexo-cli": "^1.0.2",
+    "vue-cli": "^2.5.1",
+    "whistle": "^1.2.6"
+  }
+}
