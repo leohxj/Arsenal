@@ -2,3 +2,6 @@ set clipboard=unnamed
 
 let mapleader = " "
 map <leader>a :action $SelectAll<CR>
+
+nnoremap x "_x
+vnoremap x "_x
