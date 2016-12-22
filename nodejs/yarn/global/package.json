@@ -1,7 +1,17 @@
 {
   "dependencies": {
+    "eslint": "^3.12.2",
+    "grunt-cli": "^1.2.0",
+    "gulp-cli": "^1.2.2",
     "hexo-cli": "^1.0.2",
+    "js-beautify": "^1.6.4",
     "live-server": "^1.1.0",
+    "newman": "^3.3.1",
+    "npm": "^4.0.5",
+    "ppt-cli": "^1.2.14",
+    "rimraf": "^2.5.4",
+    "tern": "^0.20.0",
+    "tree-cli": "^0.4.9",
     "vue-cli": "^2.5.1",
     "whistle": "^1.2.6"
   }
