@@ -339,6 +339,10 @@ you should place your code here."
                                                 (evil-use-register ?_)
                                                 (call-interactively 'evil-delete-char)))
 
+  (define-key visual-normal-state-map (kbd "x") (lambda ()
+                                                (interactive)
+                                                (evil-use-register ?_)
+                                                (call-interactively 'evil-delete-char)))
   ;; evil-escape, if key sequence is composed with the smae characters, recommended to set delay to 0.2
   ;; (setq-default evil-escape-key-sequence "df")
 
