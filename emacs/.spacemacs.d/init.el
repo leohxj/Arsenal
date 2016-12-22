@@ -44,6 +44,9 @@ values."
      (auto-completion :variables auto-completion-enable-sort-by-usage t
                       auto-completion-enable-snippets-in-popup t
                       :disabled-for org markdown)
+     html
+     javascript
+     autohotkey
      emacs-lisp
      markdown
      org
@@ -329,6 +332,13 @@ you should place your code here."
   (define-key evil-insert-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
   (define-key evil-motion-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
 
+  ;; make x to del without copy, keep d to del with copy
+  ;; delete without register
+  (define-key evil-normal-state-map (kbd "x") (lambda ()
+                                                (interactive)
+                                                (evil-use-register ?_)
+                                                (call-interactively 'evil-delete-char)))
+
   ;; evil-escape, if key sequence is composed with the smae characters, recommended to set delay to 0.2
   ;; (setq-default evil-escape-key-sequence "df")
 
@@ -372,3 +382,9 @@ you should place your code here."
 
 (setq custom-file (expand-file-name "custom.el" dotspacemacs-directory))
 (load custom-file 'no-error 'no-message)
+(defun dotspacemacs/emacs-custom-settings ()
+  "Emacs custom settings.
+This is an auto-generated function, do not modify its content directly, use
+Emacs customize menu instead.
+This function is called at the very end of Spacemacs initialization."
+)
