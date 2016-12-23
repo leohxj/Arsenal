@@ -173,7 +173,7 @@ values."
    ;; works in the GUI. (default nil)
    dotspacemacs-distinguish-gui-tab nil
    ;; If non nil `Y' is remapped to `y$' in Evil states. (default nil)
-   dotspacemacs-remap-Y-to-y$ nil
+   dotspacemacs-remap-Y-to-y$ t
    ;; If non-nil, the shift mappings `<' and `>' retain visual state if used
    ;; there. (default t)
    dotspacemacs-retain-visual-state-on-shift t
@@ -332,17 +332,15 @@ you should place your code here."
   (define-key evil-insert-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
   (define-key evil-motion-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
 
-  ;; make x to del without copy, keep d to del with copy
-  ;; delete without register
-  (define-key evil-normal-state-map (kbd "x") (lambda ()
-                                                (interactive)
-                                                (evil-use-register ?_)
-                                                (call-interactively 'evil-delete-char)))
+  ;; ignore visual-mode copy chars
+  (fset 'evil-visual-update-x-selection 'ignore)
 
-  (define-key visual-normal-state-map (kbd "x") (lambda ()
-                                                (interactive)
-                                                (evil-use-register ?_)
-                                                (call-interactively 'evil-delete-char)))
+  ;; make x to del without copy, keep d to del with
+  ;; delete without register
+  (defun bb/evil-delete (orig-fn beg end &optional type _ &rest args)
+    (apply orig-fn beg end type ?_ args))
+  (advice-add 'evil-delete-char :around 'bb/evil-delete)
+
   ;; evil-escape, if key sequence is composed with the smae characters, recommended to set delay to 0.2
   ;; (setq-default evil-escape-key-sequence "df")
 
