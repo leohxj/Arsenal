@@ -57,6 +57,7 @@ values."
      (chinese :packages youdao-dictionary
               :variables chinese-enable-youdao-dict t)
      (colors :variables colors-enable-nyan-cat-progress-bar t)
+     leohxj
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
