@@ -1,0 +1,22 @@
+{
+  "labs": [
+    {
+      "cmmdtyCode": "000000000121347341",
+      "supplierCode": "0000000000",
+      "channel": "WAP222",
+      "labelScene": "07"
+    },
+    {
+      "cmmdtyCode": "000000000121347746",
+      "supplierCode": "0000000000",
+      "channel": "WAP",
+      "labelScene": "07"
+    },
+    {
+      "cmmdtyCode": "000000000121347735",
+      "supplierCode": "0000000000",
+      "channel": "WAP",
+      "labelScene": "07"
+    }
+  ]
+}

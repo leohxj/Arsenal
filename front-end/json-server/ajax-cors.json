@@ -1,0 +1,714 @@
+{
+  "orderList": {
+  "currTime": "2016-12-29 14:44:15",
+  "detailFlag": "0",
+  "orderList": [
+    {
+      "jnbtFlag": "0",
+      "omsOrderId": "000600081774",
+      "orderAmt": "60.50",
+      "orderId": "2005204176",
+      "orderType": "0",
+      "payMethod": "02",
+      "showAliPay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-29 11:21:14",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024456235",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060008177401",
+              "partNumber": "000000000121347851",
+              "price": "55.50",
+              "productName": "PRE环境空调00001品类商品77788777",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showLogistic": "1",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "jnbtFlag": "0",
+      "omsOrderId": "000600081641",
+      "orderAmt": "60.50",
+      "orderId": "2005203755",
+      "orderType": "0",
+      "payMethod": "02",
+      "showAliPay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-29 10:59:09",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024451302",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060008164101",
+              "partNumber": "000000000121347851",
+              "price": "55.50",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showLogistic": "1",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "jnbtFlag": "0",
+      "omsOrderId": "000600081465",
+      "orderAmt": "60.50",
+      "orderId": "2005203754",
+      "orderType": "0",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showCancel": "1",
+      "showDelete": "0",
+      "showFullPay": "1",
+      "submitTime": "2016-12-29 10:58:39",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024451301",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060008146501",
+              "partNumber": "000000000121347851",
+              "price": "55.50",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待支付",
+          "showFactoryConfirm": "0",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "jnbtFlag": "0",
+      "omsOrderId": "000600081629",
+      "orderAmt": "60.50",
+      "orderId": "2005203753",
+      "orderType": "0",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showCancel": "1",
+      "showDelete": "0",
+      "showFullPay": "1",
+      "submitTime": "2016-12-29 10:24:39",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024451300",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060008162901",
+              "partNumber": "000000000121347851",
+              "price": "55.50",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待支付",
+          "showFactoryConfirm": "0",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "jnbtFlag": "0",
+      "omsOrderId": "000600081742",
+      "orderAmt": "60.50",
+      "orderId": "2005204175",
+      "orderType": "0",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showCancel": "1",
+      "showDelete": "0",
+      "showFullPay": "1",
+      "submitTime": "2016-12-29 10:23:10",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024456234",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060008174201",
+              "partNumber": "000000000121347851",
+              "price": "55.50",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待支付",
+          "showFactoryConfirm": "0",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "82.00",
+      "balanceEndTime": "2016-12-25 21:16:05",
+      "balanceStartTime": "2016-12-20 21:15:58",
+      "balanceStatus": "3",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-23 21:15:59",
+      "depositExtAmt": "15.00",
+      "depositStartTime": "2016-12-20 21:15:58",
+      "depositStatus": "3",
+      "jnbtFlag": "0",
+      "omsOrderId": "000600075330",
+      "orderAmt": "92.00",
+      "orderId": "2005201782",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-21 09:02:27",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024450288",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060007533001",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showLogistic": "1",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "jnbtFlag": "0",
+      "omsOrderId": "000600074301",
+      "orderAmt": "20.88",
+      "orderId": "2005202018",
+      "orderType": "0",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showCancel": "0",
+      "showDelete": "1",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 17:29:12",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024455020",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060007430101",
+              "partNumber": "000000000750047509",
+              "price": "18.88",
+              "productName": "SAT汽车服务商品上门服务_尾翼20161216205130",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "已取消",
+          "showFactoryConfirm": "0",
+          "showLogistic": "0",
+          "vendorCode": "0070058399",
+          "vendorName": "便宜还不买",
+          "vendorType": "1"
+        }
+      ]
+    },
+    {
+      "jnbtFlag": "0",
+      "omsOrderId": "000600073309",
+      "orderAmt": "49.40",
+      "orderId": "2005201501",
+      "orderType": "0",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 14:13:37",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024450001",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060007330901",
+              "partNumber": "000000000121347850",
+              "price": "44.40",
+              "productName": "PRE环境空调00001品类商品6",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showLogistic": "1",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "76.00",
+      "balanceEndTime": "2016-12-23 19:47:10",
+      "balanceStartTime": "2016-12-19 19:47:07",
+      "balanceStatus": "1",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-22 19:46:55",
+      "depositExtAmt": "20.00",
+      "depositStartTime": "2016-12-19 19:46:53",
+      "depositStatus": "3",
+      "jnbtFlag": "1",
+      "omsOrderId": "000600072531",
+      "orderAmt": "86.00",
+      "orderId": "2005200509",
+      "orderTips": "本次预定活动已结束，由于您未在规定的时间内支付尾款,定金将无法退还!",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "1",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 10:43:08",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024440009",
+              "itemType": "",
+              "jnbtFlag": "1",
+              "omsItemId": "00060007253101",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "已取消",
+          "showFactoryConfirm": "0",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "77.00",
+      "balanceEndTime": "2016-12-23 19:47:10",
+      "balanceStartTime": "2016-12-19 19:47:07",
+      "balanceStatus": "3",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-22 19:46:55",
+      "depositExtAmt": "20.00",
+      "depositStartTime": "2016-12-19 19:46:53",
+      "depositStatus": "3",
+      "jnbtFlag": "1",
+      "omsOrderId": "000600072528",
+      "orderAmt": "87.00",
+      "orderId": "2005200508",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 10:42:03",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024440008",
+              "itemType": "",
+              "jnbtFlag": "1",
+              "omsItemId": "00060007252801",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "jnbtAuditStatus": "资料待提交",
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showJnbtSubmit": "1",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "78.00",
+      "balanceEndTime": "2016-12-23 19:47:10",
+      "balanceStartTime": "2016-12-19 19:47:07",
+      "balanceStatus": "3",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-22 19:46:55",
+      "depositExtAmt": "20.00",
+      "depositStartTime": "2016-12-19 19:46:53",
+      "depositStatus": "3",
+      "jnbtFlag": "0",
+      "omsOrderId": "000600072239",
+      "orderAmt": "88.00",
+      "orderId": "2005201007",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 10:40:22",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024445009",
+              "itemType": "",
+              "jnbtFlag": "0",
+              "omsItemId": "00060007223901",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showLogistic": "1",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "0.00",
+      "balanceEndTime": "2016-12-23 19:47:10",
+      "balanceStartTime": "2016-12-19 19:47:07",
+      "balanceStatus": "3",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-22 19:46:55",
+      "depositExtAmt": "20.00",
+      "depositStartTime": "2016-12-19 19:46:53",
+      "depositStatus": "3",
+      "jnbtFlag": "1",
+      "omsOrderId": "000600072408",
+      "orderAmt": "10.00",
+      "orderId": "2005201004",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 10:06:03",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024445006",
+              "itemType": "",
+              "jnbtFlag": "1",
+              "omsItemId": "00060007240801",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "jnbtAuditStatus": "资料待提交",
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showJnbtSubmit": "1",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "73.00",
+      "balanceEndTime": "2016-12-23 19:47:10",
+      "balanceStartTime": "2016-12-19 19:47:07",
+      "balanceStatus": "3",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-22 19:46:55",
+      "depositExtAmt": "20.00",
+      "depositStartTime": "2016-12-19 19:46:53",
+      "depositStatus": "3",
+      "jnbtFlag": "1",
+      "omsOrderId": "000600072205",
+      "orderAmt": "83.00",
+      "orderId": "2005200506",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "1",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 09:40:53",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024440006",
+              "itemType": "",
+              "jnbtFlag": "1",
+              "omsItemId": "00060007220501",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "已取消",
+          "showFactoryConfirm": "0",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "0.00",
+      "balanceEndTime": "2016-12-23 19:47:10",
+      "balanceStartTime": "2016-12-19 19:47:07",
+      "balanceStatus": "3",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-22 19:46:55",
+      "depositExtAmt": "20.00",
+      "depositStartTime": "2016-12-19 19:46:53",
+      "depositStatus": "3",
+      "jnbtFlag": "1",
+      "omsOrderId": "000600072204",
+      "orderAmt": "10.00",
+      "orderId": "2005201003",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "0",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 09:37:00",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024445005",
+              "itemType": "",
+              "jnbtFlag": "1",
+              "omsItemId": "00060007220401",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "jnbtAuditStatus": "资料待提交",
+          "logisticFlag": "0",
+          "orderStatus": "待收货",
+          "showFactoryConfirm": "0",
+          "showJnbtSubmit": "1",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    },
+    {
+      "balanceAmt": "77.00",
+      "balanceEndTime": "2016-12-23 19:47:10",
+      "balanceStartTime": "2016-12-19 19:47:07",
+      "balanceStatus": "3",
+      "depositAmt": "10.00",
+      "depositEndTime": "2016-12-22 19:46:55",
+      "depositExtAmt": "20.00",
+      "depositStartTime": "2016-12-19 19:46:53",
+      "depositStatus": "3",
+      "jnbtFlag": "1",
+      "omsOrderId": "000600072302",
+      "orderAmt": "87.00",
+      "orderId": "2005200505",
+      "orderType": "1",
+      "payMethod": "01",
+      "showAliPay": "0",
+      "showBalance": "0",
+      "showBalancePay": "0",
+      "showCancel": "0",
+      "showDelete": "1",
+      "showDeposit": "0",
+      "showDepositExt": "1",
+      "showDepositPay": "0",
+      "showFullPay": "0",
+      "submitTime": "2016-12-20 09:24:06",
+      "vendorList": [
+        {
+          "hwgFlag": "0",
+          "itemList": [
+            {
+              "canFactoryConfirm": "0",
+              "itemId": "2024440005",
+              "itemType": "",
+              "jnbtFlag": "1",
+              "omsItemId": "00060007230201",
+              "partNumber": "000000000121347851",
+              "price": "100.00",
+              "productName": "PRE环境空调00001品类商品7",
+              "qty": "1",
+              "subItemList": []
+            }
+          ],
+          "logisticFlag": "0",
+          "orderStatus": "已取消",
+          "showFactoryConfirm": "0",
+          "showLogistic": "0",
+          "vendorCode": "0000000000",
+          "vendorName": "苏宁自营",
+          "vendorType": "0"
+        }
+      ]
+    }
+  ],
+  "retCode": "0",
+  "totalPage": "42"
+}
+}
