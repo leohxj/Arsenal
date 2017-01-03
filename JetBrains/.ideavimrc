@@ -1,7 +1,8 @@
 set clipboard=unnamed
-
-let mapleader = " "
-map <leader>a :action $SelectAll<CR>
+set surround
 
 nnoremap x "_x
 vnoremap x "_x
+
+let mapleader = " "
+map <leader>a :action $SelectAll<CR>
