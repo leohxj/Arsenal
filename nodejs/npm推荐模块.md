@@ -26,6 +26,9 @@
 - [http-server](https://www.npmjs.com/package/http-server)： 等价于`python -m SimpleHTTPServer`
 - [live-server](https://www.npmjs.com/package/live-server): 可自动刷新的静态服务器
 
+## proxy
+- [chimurai/http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware): The one-liner node.js http-proxy middleware for connect, express and browser-sync
+
 ## 数据库
 - [Sequelize](https://github.com/sequelize/sequelize)
 
