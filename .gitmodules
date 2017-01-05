@@ -1,0 +1,3 @@
+[submodule "emacs/spacemacs-private"]
+	path = emacs/spacemacs-private
+	url = https://github.com/zilongshanren/spacemacs-private.git
