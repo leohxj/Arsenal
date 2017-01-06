@@ -138,6 +138,10 @@
 - `ctrl-w p`: 返回上一次聚焦的 window
 - `ctrl-w h/j/k/l`: 移动光标聚焦在上下左右窗口
 
+# 搜索
+- 设置搜索结果高亮: `set hlsearch!`
+- 取消高亮设置: `noh`
+
 # 小技巧
 
 - 插入3个 go, 可使用 `3i go {esc}`
