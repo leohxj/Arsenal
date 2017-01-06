@@ -9,7 +9,8 @@
 ; ^ = CTRL
 ; + = SHIFT
 ; # = WIN
-; --------------------------------------------------------------
+;===============================================================
+
 
 
 ; --------------------------------------------------------------
@@ -34,8 +35,10 @@ InJetbrainsIDE() {
 InSecureCRT() {
 	return WinActive("ahk_class VanDyke Software - SecureCRT")
 }
-; --------------------------------------------------------------
+;===============================================================
 
+; --------------------------------------------------------------
+; map Caps to Ctrl
 ; --------------------------------------------------------------
 SetCapsLockState , AlwaysOff
 
@@ -49,8 +52,9 @@ Capslock::
 Return
 
 #IfWinExist, Enable nav-hotkeys: emacs
-;; mock emacs move
 
+;; mock emacs move
+;; caps+a => begin of line
 *a::
 GetKeyState, state, Shift
 if state = D
@@ -62,6 +66,7 @@ else
         Send {Blind}{LCtrl Up}{Home}{LCtrl Down}
 Return
 
+;; caps+e => end of line
 *e::
 GetKeyState, state, Shift
 if state = D
@@ -73,6 +78,7 @@ else
         Send {Blind}{LCtrl Up}{End}{LCtrl Down}
 Return
 
+;; caps+b => left(back)
 *b::
 GetKeyState, state, Shift
 if state = D
@@ -84,6 +90,7 @@ else
         Send {Blind}{LCtrl Up}{Left}{LCtrl Down}
 Return
 
+;; caps+f => right(forward)
 *f::
 GetKeyState, state, Shift
 if state = D
@@ -95,6 +102,7 @@ else
         Send {Blind}{LCtrl Up}{Right}{LCtrl Down}
 Return
 
+;; caps+n => down(next)
 *n::
 GetKeyState, state, Shift
 if state = D
@@ -106,6 +114,7 @@ else
         Send {Blind}{LCtrl Up}{Down}{LCtrl Down}
 Return
 
+;; caps+p => up(previous)
 *p::
 GetKeyState, state, Shift
 if state = D
@@ -117,9 +126,10 @@ else
         Send {Blind}{LCtrl Up}{Up}{LCtrl Down}
 Return
 
-;; caps(ctrl) + alt + p
+;; caps + alt + p => ctrl + alt + p
 *!p::^!p
 
+;; caps + [ => ecs (more usefull in vim-mode)
 *[::
 GetKeyState, state, Shift
 if state = D
@@ -132,122 +142,113 @@ else
 Return
 
 #IfWinExist, ; end context-sensitive block
-
-
-; --------------------------------------------------------------
+;===============================================================
 
 ; --------------------------------------------------------------
 ; OS X system shortcuts
+; using SharpKeys swip alt and win
+; so we can mock win + {key} => cmd + {key}
 ; --------------------------------------------------------------
 
+;; disable win
 LWin::
 RWin::
 Return
 #Up::Send {LWin}
 
-; Windows + C
+; Win + C => ctrl+c(copy)
 WinC() {
 	Send ^c
 }
 <#c::WinC()
 
-; Windows + V
+; Win + V => ctrl + v (paster)
 WinV() {
 	Send ^v
 }
 <#v::WinV()
 
-; Windows + X
+; Win + X => ctrl + x (cut)
 WinX() {
 	Send ^x
 }
 <#x::WinX()
 
-; Windows + z
+; Win + z => ctrl + z (undo)
 WinZ() {
 	Send ^z
 }
 <#z::WinZ()
 
 
-; Windows + F
+; Win + F => ctrl + f (find)
 WinF() {
 	Send ^f
 }
 <#f::WinF()
 
-; Windows + A
+; Win + A => ctrl + a (sellect all)
 WinA() {
 	Send ^a
 }
 <#a::WinA()
 
-; Windows + N
+; Win + N => ctrl + n (create new file)
 WinN() {
 	Send ^n
 }
 <#n::WinN()
 
-; Windows + T
+; Win + T => ctrl + t (create new tab)
 WinT() {
 	Send ^t
 }
 <#t::WinT()
 
-; Windows + W
+; Win + W => ctrl + w (close a tab)
 WinW() {
 	Send ^w
 }
 <#w::WinW()
 
-; Windows + R
+; Win + R => ctrl + r (refush)
 WinR() {
 	Send ^r
 }
 <#r::WinR()
 
-; Windows + S
+; Win + S => ctrl + s (save)
 WinS() {
 	Send ^s
 }
 <#s::WinS()
 
+; win + e => ctrl + e (in IDEA, open recent files)
 winE() {
 	Send ^e
 }
 <#e::WinE()
 
-;; win + space => change differ input source
+;; win + space => ctrl + space (change differ input source)
 #Space::Send ^{Space}
 
-;; you may using below method to map some keys, Such as:
-;; Closing windows and programs (using the Win Key)
-; !w::Send {LCtrl down}{F4}{LCtrl up}
-; !q::!F4
-
-; --------------------------------------------------------------
-
-;; --------------------------------------
-;; if you swipe alt and windows, cancel blow comment
-;; --------------------------------------
-
+;; win + tab => alt + tab (switch apps)
 LWin & Tab::AltTab
 
-; Windows + `
+; Win + ` => alt + ~ (switch windows in one app, base on VistaSwitcher)
 WinPonit() {
     Send !~
 }
 <#`::WinPonit()
 
-;; --------------------------------------
-;; some common shortcuts for windows app
-;; --------------------------------------
-
-;; caps(ctrl) + win(alt) + key
+;; caps + win + {key} => ctrl + alt + {key}
 #^x::Send !^x
 #^c::Send !^c
 #^z::Send !^z
 #^a::Send !^a
+#^s::Send !^s
 
-;; shift + win(alt) + key
+;; shift + win(alt) + key => shift + alt + {key}
 #+v::Send !+v
+
+;===============================================================
