@@ -27,6 +27,10 @@
 - [Win下最爱效率神器:AutoHotKey](http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/)
 - [AutoHotkey 的高度定制功能，让你成为效率高手](https://autohotkey.com/boards/viewtopic.php?t=4278)
 
+## PowerShell
+- [posh-git](http://dahlbyk.github.io/posh-git/)
+- [psget](http://psget.net/)
+
 ## 其他
 - [Beyond Compare](http://www.scootersoftware.com/): 收费的
 - [Meld](http://meldmerge.org/development.html): 免费的文本对比工具
