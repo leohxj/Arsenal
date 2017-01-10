@@ -31,3 +31,18 @@
 - [Beyond Compare](http://www.scootersoftware.com/): 收费的
 - [Meld](http://meldmerge.org/development.html): 免费的文本对比工具
 - [xShell5](http://www.netsarang.com/products/xsh_overview.html)
+
+## 抓包工具
+- [postMan](https://www.getpostman.com): chrome下使用的话，配合一个它的插件，可以带上 cookies
+- [charles](https://www.charlesproxy.com/): mac, windows, linux
+- [fiddler](http://www.telerik.com/fiddler): windows, linux
+- [Mac下有没有类似fiddler的工具](https://www.zhihu.com/question/22914923)
+- [Paw](https://paw.cloud/)
+- [Surge](): Mac 下
+- [betwixt](https://github.com/kdzwinel/betwixt): chrome network 面板。
+- [avwo/whistle](https://github.com/avwo/whistle): npm 模块，可在浏览器开启界面操作
+- [anyproxy](http://anyproxy.io/cn/): 支付宝使用的。
+- [nproxy](https://github.com/goddyZhao/nproxy)
+- [CORS Toggle Chrome插件](http://www.cnplugins.com/devtool/cors-toggle/)
+- [https://mitmproxy.org/](https://mitmproxy.org/): 使用较多的 命令行 工具
+- [h2non/toxy](https://github.com/h2non/toxy): Hackable HTTP proxy to simulate server failure scenarios and network conditions
