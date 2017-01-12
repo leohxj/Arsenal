@@ -4,7 +4,7 @@ node-gyp在windows下编译程序需要c++ build, 所以建议安装vs。
 
 **2016-11-20 更新**： 现在可以通过 `npm install --global --production windows-build-tools` 安装所依赖的windows 工具。原来手动配置的方式还是如下:
 
- 
+
 ## 解决方案
 npmrc中插入一句: 这句是为了啥，我也不知道！
 ```
@@ -66,3 +66,7 @@ GYP_MSVS_VERSION=2013
 
 
 ## imagemin-pngquant
+
+
+# https://www.npmjs.com/package/chromedriver
+可设置 mirror 但是仍然会安装失败。可通过 `Proxifier` 设置 `node.exe` 走一个外网代理。。

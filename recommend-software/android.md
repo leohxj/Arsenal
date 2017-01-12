@@ -26,6 +26,7 @@
 - [ROM刷新](http://bbs.smartisan.com/thread-119403-1-1.html)
 - [网友整理的技巧帖子](http://bbs.smartisan.com/home.php?mod=space&uid=110721&do=thread&type=thread&view=me&from=space): 一位论坛网友整理的技巧帖子
 - [[教程] 坚果5.1.1的google服务包已解决](http://bbs.smartisan.com/thread-236886-1-1.html)
+
 ## 应用
 - [你不应错过的 8 款优秀 Xposed 模块 | 2015 年度盘点](http://sspai.com/32340)
 - [Android 系统上的 Xposed 框架中都有哪些值得推荐的模块？](https://www.zhihu.com/question/22063862)
@@ -33,7 +34,7 @@
 - [大家的 Android 手机上面安装都有哪些好用的软件?](https://www.v2ex.com/t/276052)
 
 
-## 英语 
+## 英语
 - 扇贝相关的
 - 欧陆词典
 
@@ -73,6 +74,7 @@
 - Total Commander
 - RescueTime
 - Brave
+- AnkiDroid
 
 ## 浏览器
 - Chrome
@@ -135,6 +137,7 @@
 - Rewire
 - SwipeTimes
 - 番茄土豆
+- HabitBull
 
 ## 新闻资源
 - 微博
@@ -143,3 +146,10 @@
 - 知乎日报
 - 一览
 - 好奇心日报
+
+## 咖啡
+- coffee.guru
+
+## 开发工具
+- https://termius.com/
+- https://juicessh.com/
