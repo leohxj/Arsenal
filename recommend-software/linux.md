@@ -5,4 +5,5 @@
 - [2016：如何选择 Linux 发行版](http://blog.jobbole.com/98056/)
 
 ## 软件
- - [awesome  窗口管理器](http://awesome.naquadah.org/)
+- [awesome  窗口管理器](http://awesome.naquadah.org/)
+
