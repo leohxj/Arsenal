@@ -10,6 +10,7 @@
 - [tree-cli](https://www.npmjs.com/package/tree-cli): 树形显示工具
 - [generate/generate](https://github.com/generate/generate/): 命令行下生成文件的工具
 - [yargs](https://www.npmjs.com/package/yargs): 处理命令行输入的参数，转换为hash对象
+- [install-peerdeps](https://github.com/nathanhleung/install-peerdeps): 解决 npm 3.x 后，不自动安装 peerdeps 问题。
 
 
 ## 组件工具
