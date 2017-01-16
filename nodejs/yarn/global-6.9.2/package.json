@@ -1,15 +1,18 @@
 {
   "dependencies": {
+    "doctoc": "^1.2.0",
     "eslint": "^3.12.2",
     "grunt-cli": "^1.2.0",
     "gulp-cli": "^1.2.2",
     "hexo-cli": "^1.0.2",
+    "install-peerdeps": "^1.1.2",
     "js-beautify": "^1.6.4",
     "jsdoc": "^3.4.3",
     "json-server": "^0.9.4",
     "live-server": "^1.1.0",
     "newman": "^3.3.1",
     "npm": "^4.0.5",
+    "postcss-cli": "^2.6.0",
     "ppt-cli": "^1.2.14",
     "rimraf": "^2.5.4",
     "tern": "^0.20.0",
