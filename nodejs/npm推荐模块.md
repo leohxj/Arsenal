@@ -33,5 +33,13 @@
 ## 数据库
 - [Sequelize](https://github.com/sequelize/sequelize)
 
+
+## http/ajax
+- [visionmedia/superagent](https://github.com/visionmedia/superagent)
+- [request/request](https://github.com/request/request): Simplified HTTP request client.
+- [axios](https://www.npmjs.com/package/axios): Promise based HTTP client for the browser and node.js
+- [github/fetch](https://github.com/github/fetch): A window.fetch JavaScript polyfill.
+
+
 ## 其他资料
 - [40 个你绝对离不开的 NPM 库](http://gold.xitu.io/entry/55ea6583ddb2e44a0462cc87)
