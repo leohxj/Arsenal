@@ -329,9 +329,6 @@ you should place your code here."
   ;; force horizontal split window
   (setq split-width-threshold 120)
 
-  ;; fixed: batter-defaults, `C-e` conflict
-  (define-key evil-insert-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
-  (define-key evil-motion-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
 
   ;; ignore visual-mode copy chars
   (fset 'evil-visual-update-x-selection 'ignore)
@@ -381,6 +378,14 @@ you should place your code here."
     (interactive)
     (goto-char (point-min))
     (while (search-forward "\r" nil t) (replace-match "")))
+
+  ;; using emacs ctrl+b/f/n/p/a/e in insert-mode
+  (define-key evil-insert-state-map (kbd "C-e") 'mwim-end-of-code-or-line)
+  (define-key evil-insert-state-map (kbd "C-a") 'mwim-beginning-of-code-or-line)
+  (define-key evil-insert-state-map (kbd "C-f") 'evil-forward-char)
+  (define-key evil-insert-state-map (kbd "C-b") 'evil-backward-char)
+  (define-key evil-insert-state-map (kbd "C-n") 'evil-next-line)
+  (define-key evil-insert-state-map (kbd "C-p") 'evil-previous-line)
   )
 
 (setq custom-file (expand-file-name "custom.el" dotspacemacs-directory))
