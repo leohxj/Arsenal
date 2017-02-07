@@ -23,7 +23,7 @@
     </Proxy>
     <Proxy id="103" type="HTTP">
       <Address>127.0.0.1</Address>
-      <Port>8123</Port>
+      <Port>1080</Port>
       <Options>48</Options>
     </Proxy>
     <Proxy id="104" type="HTTP">
@@ -36,11 +36,6 @@
       <Port>1080</Port>
       <Options>48</Options>
     </Proxy>
-    <Proxy id="107" type="HTTP">
-      <Address>127.0.0.1</Address>
-      <Port>8088</Port>
-      <Options>48</Options>
-    </Proxy>
     <Proxy id="108" type="HTTP">
       <Address>10.19.110.32</Address>
       <Port>8080</Port>
@@ -49,11 +44,6 @@
     <Proxy id="109" type="HTTPS">
       <Address>10.19.110.32</Address>
       <Port>8080</Port>
-      <Options>48</Options>
-    </Proxy>
-    <Proxy id="110" type="SOCKS5">
-      <Address>10.22.19.22</Address>
-      <Port>5200</Port>
       <Options>48</Options>
     </Proxy>
     <Proxy id="111" type="SOCKS5">
@@ -76,6 +66,11 @@
       <Port>8080</Port>
       <Options>48</Options>
     </Proxy>
+    <Proxy id="115" type="HTTP">
+      <Address>127.0.0.1</Address>
+      <Port>8887</Port>
+      <Options>48</Options>
+    </Proxy>
   </ProxyList>
   <ChainList />
   <RuleList>
@@ -86,7 +81,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>苏宁内网</Name>
-      <Targets>192.*;127.*;10.*;*.cnsuning.com;localhost;</Targets>
+      <Targets>192.*;127.*;10.*;*.cnsuning.com;localhost;localhost*;</Targets>
       <Action type="Direct" />
     </Rule>
     <Rule enabled="true">
@@ -94,9 +89,14 @@
       <Applications>ss-qt5.exe</Applications>
       <Action type="Proxy">114</Action>
     </Rule>
-    <Rule enabled="true">
+    <Rule enabled="false">
       <Name>ss</Name>
       <Applications>shadowsocks.exe</Applications>
+      <Action type="Proxy">114</Action>
+    </Rule>
+    <Rule enabled="true">
+      <Name>emacs</Name>
+      <Applications>*emacs*.exe</Applications>
       <Action type="Proxy">114</Action>
     </Rule>
     <Rule enabled="true">
@@ -111,12 +111,12 @@
     </Rule>
     <Rule enabled="true">
       <Name>外网</Name>
-      <Applications>eudic.exe; </Applications>
+      <Applications>eudic.exe;XMusic.exe</Applications>
       <Action type="Proxy">113</Action>
     </Rule>
     <Rule enabled="true">
       <Name>需要翻墙的软件</Name>
-      <Applications>googleupdate.exe;svchost.exe;atom.exe;GoogleUpdate.exe</Applications>
+      <Applications>googleupdate.exe;svchost.exe;GoogleUpdate.exe;anki.exe</Applications>
       <Action type="Proxy">105</Action>
     </Rule>
     <Rule enabled="true">
@@ -125,7 +125,7 @@
       <Targets>*.dropbox.com</Targets>
       <Action type="Proxy">105</Action>
     </Rule>
-    <Rule enabled="true">
+    <Rule enabled="false">
       <Name>VirtualBox</Name>
       <Applications>virtualbox.exe;VBox*.exe;</Applications>
       <Action type="Proxy">113</Action>
@@ -144,24 +144,29 @@
       <Name>其余走翻墙的</Name>
       <Action type="Proxy">105</Action>
     </Rule>
-    <Rule enabled="false">
-      <Name>cmd</Name>
-      <Applications>node.exe;ruby.exe;git*.exe;</Applications>
-      <Action type="Proxy">105</Action>
-    </Rule>
     <Rule enabled="true">
       <Name>cmd</Name>
-      <Applications>python.exe;curl.exe;nvm.exe;</Applications>
+      <Applications>python.exe;curl.exe</Applications>
       <Action type="Proxy">105</Action>
     </Rule>
     <Rule enabled="false">
       <Name>domain</Name>
-      <Targets>*.baidu.com;</Targets>
+      <Targets>192.30.253.117</Targets>
+      <Action type="Proxy">105</Action>
+    </Rule>
+    <Rule enabled="true">
+      <Name>node</Name>
+      <Applications>node.exe</Applications>
+      <Action type="Proxy">105</Action>
+    </Rule>
+    <Rule enabled="true">
+      <Name>网盘</Name>
+      <Applications>360wangpan.exe; baidunetdisk.exe</Applications>
       <Action type="Proxy">105</Action>
     </Rule>
     <Rule enabled="true">
       <Name>Default</Name>
-      <Action type="Direct" />
+      <Action type="Proxy">105</Action>
     </Rule>
   </RuleList>
 </ProxifierProfile>
