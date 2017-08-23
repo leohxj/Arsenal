@@ -1,0 +1,9 @@
+set clipboard=unnamed
+set surround
+set keep-english-in-normal-and-restore-in-insert
+
+nnoremap x "_x
+vnoremap x "_x
+
+let mapleader = " "
+map <leader>a :action $SelectAll<CR>

@@ -1,5 +1,3 @@
-[push]
-    default = simple
 [user]
     name = Leo Hui
     email = leohxj@gmail.com
@@ -7,4 +5,13 @@
     helper = osxkeychain
 [alias]
     st = status
+	ci = commit
+	co = checkout
+	br = branch
+	mm = merge --no-ff
+	last = "log -1 HEAD"
+	ll = "log --pretty=oneline --graph"
+	unstage = "reset HEAD --"
     gi = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
+[commit]
+	template = /Users/ali/.stCommitMsg
