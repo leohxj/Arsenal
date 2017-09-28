@@ -14,4 +14,23 @@
 	unstage = "reset HEAD --"
     gi = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
 [commit]
-	template = /Users/ali/.stCommitMsg
+	template = /Users/leohxj/.stCommitMsg
+[core]
+	excludesfile = /Users/leohxj/.gitignore_global
+[difftool]
+    prompt = false
+[difftool "sourcetree"]
+	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = sourcetree
+[mergetool]
+	prompt = false
+[mergetool "sourcetree"]
+	cmd = /usr/local/bin/bcomp \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+	trustExitCode = true
+[merge]
+	tool = sourcetree
+
+# for github gitconfig
+[includeIf "gitdir:~/workspace/github/"]
+    path = ~/workspace/github/.gitconfig
