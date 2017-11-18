@@ -34,12 +34,3 @@ patch:
       hilited_candidate_back_color: 0xFFFFFF             # 第一候选项背景背景色
       hilited_candidate_label_color: 0xFF6941            # 第一候选项编号颜色
       hilited_comment_text_color: 0xFF6941               # 注解文字高亮
-
-  app_options:
-    com.blacktree.Quicksilver: &a
-      ascii_mode: false
-    com.googlecode.iterm2: *a
-    com.alfredapp.Alfred: *a
-    com.runningwithcrayons.Alfred-2: *a
-    org.vim.MacVim: *a
-    com.apple.Terminal: *a
