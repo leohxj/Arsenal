@@ -7,12 +7,12 @@ patch:
     option_list_separator: '／'
     abbreviate_options: true
 
-
   menu:
     page_size: 9                 # 候选词数量
 
   schema_list:
     - schema: luna_pinyin
+    - schema: double_pinyin
     - schema: emoji         # emoji表情
 
   ascii_composer:
