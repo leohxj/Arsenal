@@ -1,3 +1,6 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -48,9 +51,7 @@ ZSH_THEME="cloud"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx colorize history autojump thefuck node npm chucknorris emoji emoji-clock
-  zsh-nvm zsh-autosuggestions zsh-better-npm-completion zsh-completions zsh-syntax-highlighting
-  zsh-history-substring-search)
+plugins=(git osx colorize history autojump node npm chucknorris thefuck emoji zsh-nvm zsh-autosuggestions zsh-better-npm-completion zsh-completions zsh-history-substring-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
