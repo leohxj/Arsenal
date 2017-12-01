@@ -51,7 +51,8 @@ ZSH_THEME="cloud"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx colorize history autojump node npm chucknorris thefuck emoji zsh-nvm zsh-autosuggestions zsh-better-npm-completion zsh-completions zsh-history-substring-search zsh-syntax-highlighting)
+plugins=(git osx colorize history autojump node npm chucknorris thefuck emoji colored-man-pages
+zsh-nvm zsh-autosuggestions zsh-better-npm-completion zsh-completions zsh-history-substring-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
