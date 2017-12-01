@@ -89,9 +89,9 @@ export LANG=en_US.UTF-8
 export http_proxy=http://127.0.0.1:1087
 export https_proxy=http://127.0.0.1:1087
 
-eval $(thefuck --alias)
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
 
+eval $(thefuck --alias)
 # cowsay
 chuck_cow
-
-
