@@ -89,9 +89,9 @@ export LANG=en_US.UTF-8
 export http_proxy=http://127.0.0.1:1087
 export https_proxy=http://127.0.0.1:1087
 
-export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 
+export PATH=$HOME/.config/yarn/global/node_modules/.bin:$PATH
 eval $(thefuck --alias)
 # cowsay
 chuck_cow
