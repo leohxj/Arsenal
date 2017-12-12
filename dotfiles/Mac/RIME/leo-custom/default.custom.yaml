@@ -11,9 +11,8 @@ patch:
     page_size: 9                 # 候选词数量
 
   schema_list:
-    - schema: luna_pinyin
     - schema: double_pinyin
-    - schema: emoji         # emoji表情
+    - schema: luna_pinyin
 
   ascii_composer:
     switch_key:
