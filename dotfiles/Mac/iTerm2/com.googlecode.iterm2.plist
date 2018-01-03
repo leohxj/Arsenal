@@ -50928,9 +50928,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-1381 562 796 473 -1920 -30 1920 1080 </string>
+	<string>424 589 918 452 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 446 1680 604 0 0 1680 1050 </string>
+	<string>0 0 1680 1050 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>534 162 570 452 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -51168,7 +51168,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>100</integer>
+			<integer>167</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Color</key>
@@ -51557,7 +51557,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>30</integer>
+			<integer>50</integer>
 			<key>Screen</key>
 			<integer>0</integer>
 			<key>Scrollback Lines</key>
@@ -51631,7 +51631,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>9FAEF8FE-860C-4227-A015-992BA2C1F03E</string>
 	<key>NoSyncLastTipTime</key>
-	<real>536128052.89883101</real>
+	<real>536636451.20268601</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -51680,6 +51680,9 @@
 		<string>0038</string>
 		<string>0039</string>
 		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -51727,7 +51730,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-12-29T03:14:14Z</date>
+	<date>2018-01-03T04:14:34Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
