@@ -16,7 +16,7 @@ module.exports = {
       '"Fira Code", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: "rgba(248,28,229,0.8)",
+    cursorColor: "rgba(205, 210, 233, .8)",
 
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
     cursorShape: "BLOCK",
@@ -129,7 +129,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-atom-dark',
+    "hyper-chesterish",
     "hyper-statusline",
     "hypercwd",
     "hyper-tabs-enhanced"
