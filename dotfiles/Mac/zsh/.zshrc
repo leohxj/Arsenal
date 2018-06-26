@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="cloud"
+ZSH_THEME="my-cloud-theme"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,8 +51,8 @@ ZSH_THEME="cloud"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx colorize history autojump node npm chucknorris thefuck emoji colored-man-pages
-zsh-nvm zsh-autosuggestions zsh-better-npm-completion zsh-completions zsh-history-substring-search zsh-syntax-highlighting)
+plugins=(git osx autojump history thefuck emoji colored-man-pages chucknorris
+zsh-nvm zsh-autosuggestions zsh-better-npm-completion zsh-completions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -62,6 +62,8 @@ source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -84,14 +86,19 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias cat=ccat
 # custom added# set https proxy
-export http_proxy=http://127.0.0.1:1087
-export https_proxy=http://127.0.0.1:1087
+# export http_proxy=http://127.0.0.1:1087
+# export https_proxy=http://127.0.0.1:1087
 
 export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 
 export PATH=$HOME/.config/yarn/global/node_modules/.bin:$PATH
+
 eval $(thefuck --alias)
+
 # cowsay
 chuck_cow
+
+# OPAM configuration
+. /Users/ali/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

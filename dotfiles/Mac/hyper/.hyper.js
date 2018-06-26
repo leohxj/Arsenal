@@ -132,7 +132,8 @@ module.exports = {
     "hyper-chesterish",
     "hyper-statusline",
     "hypercwd",
-    "hyper-tabs-enhanced"
+    "hyper-tabs-enhanced",
+    "hyper-search"
   ],
 
   // in development, you can create a directory under
